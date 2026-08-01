@@ -6,5 +6,7 @@ int main(void)
     printf("Enter time in seconds: ");
     scanf("%d", &time);
     hours = time / 3600;
-    mins 
+    mins = (time % 3600) / 60;
+    seconds = ((time % 3600) % 60);
+    printf("%dhrs, %dmins, %ds", hours, mins, seconds);
 }
