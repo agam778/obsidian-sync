@@ -8,5 +8,5 @@ int main(void)
     hours = time / 3600;
     mins = (time % 3600) / 60;
     seconds = ((time % 3600) % 60);
-    printf("%dhrs, %dmins, %ds", hours, mins, seconds);
+    printf("%dh, %dm, %ds", hours, mins, seconds);
 }
