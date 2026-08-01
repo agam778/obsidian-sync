@@ -1,0 +1,4 @@
+- [ ] Lab Copy
+- [ ] Assignment Notebook
+- [ ] Spiral binding of Lab Manual's Print
+- [ ] Lab Coat
