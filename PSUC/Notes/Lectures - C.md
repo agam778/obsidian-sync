@@ -1,2 +1,6 @@
-`<stdio.h>` - Standard I/O
-`<conio.h>` - Console I/O
+`<stdio.h>` - Standard I/O - From Buffer
+`<conio.h>` - Console I/O - From Console
+
+#### Header file includes functions. Two parts:
+- **Definition**: The code
+- **Declaration**: 
