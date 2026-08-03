@@ -41,5 +41,6 @@ Hexadecimal number: (FA8)<sub>16</sub>
 > **Decimal to Binary**
 > **Binary to Octal** (100% chance in exam)
 > **Octal to Hexadecimal** (100% chance in exam)
+> **Hexadecimal to Octal** (100% chance in exam)
 
 
