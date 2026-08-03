@@ -17,4 +17,9 @@ Q. Apply DeMorgan to the following:
 - $\overline{\overline{X} + \overline{Y} + \overline{Z}}$
 - $\overline{\overline{W} +\overline{X} + \overline{Y} + \overline{Z}}$
 
+#### Examples:
+a) A + AB  = A(1+B) = A
+b) A(A+B) = A.A + AB = A + AB = A(1+B) = A
+c) A + A'B = (A+A')(A+B) = 1(A + B) = A+B
+d) A(A'+B) = A.A' + AB = 0 + AB = AB
 
