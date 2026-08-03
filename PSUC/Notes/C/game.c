@@ -1,3 +1,3 @@
 int f1() {
-    printf("Hi");
+    printf("Hi\n");
 }
