@@ -11,6 +11,7 @@ Library file is included with `<>`, User-defined file is included with `""`
 `include` - Keyword
 `#include` - Pre-processing directory
 `#define` - Macro
+`int main(void) or void(main)` - Mandatory function
 
 **Pre-processing statement:**
 - Any statement starting with `#` symbol.
