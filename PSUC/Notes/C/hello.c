@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <game.c>
+#include "game.c"
 
 int main(void)
 {
-    printf("Hello");
+    printf("Hello\n");
+    f1();
 }
