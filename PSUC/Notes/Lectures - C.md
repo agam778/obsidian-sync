@@ -6,3 +6,5 @@
 - **Declaration**: e.g. `sqrt(100);`
 
 Library file is included with `<>`, User-defined file is included with `""`
+
+`#` - Pre-processing symbol
