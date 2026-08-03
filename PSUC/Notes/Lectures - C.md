@@ -9,3 +9,8 @@ Library file is included with `<>`, User-defined file is included with `""`
 
 `#` - Pre-processing symbol
 `include` - Keyword
+
+**Pre-processing statement:**
+- Any statement starting with `#` symbol.
+- Example: `#include <stdio.h>`
+
