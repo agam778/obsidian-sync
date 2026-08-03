@@ -3,4 +3,5 @@
 
 #### Header file includes functions. Two parts:
 - **Definition**: The code
-- **Declaration**: 
+- **Declaration**: e.g. `sqrt(100);`
+
