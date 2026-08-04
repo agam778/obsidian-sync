@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int w;
-    printf("Enter weight: ");
-    scanf("%d", &w);
-    printf("Weight on earth: %d", w * g);
+    int m;
+    printf("Enter mass: ");
+    scanf("%d", &m);
+    printf("Weight on earth: %d", m * g);
 }
