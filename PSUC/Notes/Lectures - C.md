@@ -21,5 +21,5 @@ Library file is included with `<>`, User-defined file is included with `""`
 ### Macros:
 - If you want to create any symbolic name for constant value is called Macro.
 - It is used to create symbolic constant.
-- 
+- Macro symbolic value cannot be changed during the execution of the program
 
