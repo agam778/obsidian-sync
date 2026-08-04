@@ -23,3 +23,11 @@ Library file is included with `<>`, User-defined file is included with `""`
 - It is used to create symbolic constant.
 - Macro symbolic value cannot be changed during the execution of the program
 
+```C
+// Examples
+#define g 9.8
+#define PI 3.14159
+#define NAME "MUJ"
+#define YES "Y"
+```
+
