@@ -9,7 +9,7 @@ Library file is included with `<>`, User-defined file is included with `""`
 
 `#` - Pre-processing symbol
 `include` - Keyword
-`#include` - Pre-processing directory
+`#include` - Pre-processing directive
 `#define` - Macro
 `int main(void) or void(main)` - Mandatory function
 
@@ -17,4 +17,9 @@ Library file is included with `<>`, User-defined file is included with `""`
 - Any statement starting with `#` symbol.
 - Example: `#include <stdio.h>`
 
+> [!Important] Check Viva Questions from Slides
+### Macros:
+- If you want to create any symbolic name for constant value is called Macro.
+- It is used to create symbolic constant.
+- 
 
