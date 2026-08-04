@@ -6,5 +6,5 @@ int main(void)
     int m;
     printf("Enter mass: ");
     scanf("%d", &m);
-    printf("Weight on earth: %d", m * g);
+    printf("Weight: %d", m * g);
 }
