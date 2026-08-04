@@ -5,6 +5,7 @@ int main(void)
 {
     int m;
     printf("Enter mass: ");
-    scanf("%d", &m);
+    // scanf("%d", &m);
+    m = getch();
     printf("Weight: %d", m * g);
 }
