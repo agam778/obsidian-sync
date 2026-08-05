@@ -31,3 +31,16 @@ Library file is included with `<>`, User-defined file is included with `""`
 #define YES "Y"
 ```
 
+### Macro Function:
+`#define MACRO_NAME(parameter) expression`
+#### Conditional Operator:
+`#define MAX(a,b) ((a)>(b)?(a):(b))`
+
+### Datatype, variable and constant:
+Statement: Expression followed by semi-colon.
+Variable:
+- Name of memory location
+- Memory size is decided by the datatype
+
+
+tokens
