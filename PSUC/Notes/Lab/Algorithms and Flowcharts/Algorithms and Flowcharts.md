@@ -11,9 +11,10 @@
 - Algorithm:
 	1. Step 1: Start
 	2. Step 2: Input x and y
-	3. Step 3: Divide x by y, Store result in p
-	4. Step 4: Print p
-	5. Step 5: Stop
+	3. Step 3: Check if y = 0. If yes, display error and go to Step 5
+	4. Step 3: If no, Divide x by y, Store result in p
+	5. Step 4: Print p
+	6. Step 5: Stop
 ##### To check whether the given number is even or odd.
 - [[Even Or Odd.drawio.pdf]]
 - Algorithm:
