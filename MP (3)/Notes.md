@@ -25,3 +25,4 @@ All Ferrous Materials are used.
 
 #### Runner:
 - For runner, if we want to minimise the heat transfer, we use a cylindrical runner.
+- If you want to reduce turbulence, you can make it a tetragonal shape.
