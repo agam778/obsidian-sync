@@ -10,3 +10,16 @@ Bronze = Copper + Tin (Sn)
 
 > [!important] **Pattern allowances:** In mid/end term
 
+### Gating system:
+#### Top Gate:
+All Ferrous Materials are used.
+##### Advantage:
+- Time for filling the mold cavity is less and because of that a favourable temperature gradient can be seen in this type of gating system.
+##### Disadvantage:
+- There will be a lot of splashing and because of that there might be a casting defect.
+#### Bottom Gate:
+All low melting alloys are used.
+##### Advantage:
+- No splashing
+##### Disadvantage:
+- It will take more time compared to top gate.
