@@ -30,4 +30,3 @@ All Ferrous Materials are used.
 ### Q. What are the functions of Riser?
 - It indicates if the cavity is completely filled or not.
 - It helps in escaping out the gases from the casting.
-- 
