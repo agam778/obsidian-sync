@@ -23,3 +23,5 @@ All Ferrous Materials are used.
 ##### Disadvantage:
 - It will take more time compared to top gate.
 
+#### Runner:
+- For runner, if we want to minimise the heat transfer, we use a cylindrical runner.
