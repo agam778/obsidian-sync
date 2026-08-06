@@ -5,5 +5,6 @@
 5:20 - 7 PM: rest snacks and all type shi
 7 - 8:30 PM - any subjects, assignment, type shi
 8:30 PM to 10 PM: dinner, roamy roamy type shi
+10 PM to 
 
 
