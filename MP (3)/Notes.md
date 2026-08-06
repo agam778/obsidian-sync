@@ -26,3 +26,8 @@ All Ferrous Materials are used.
 #### Runner:
 - For runner, if we want to minimise the heat transfer, we use a cylindrical runner.
 - If you want to reduce turbulence, you can make it a tetragonal shape.
+
+### Q. What are the functions of Riser?
+- It indicates if the cavity is completely filled or not.
+- It helps in escaping out the gases from the casting.
+- 
