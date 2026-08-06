@@ -18,7 +18,6 @@ All Ferrous Materials are used.
 ##### Disadvantage:
 - There will be a lot of splashing and because of that there might be a casting defect.
 #### Bottom Gate:
-All low melting alloys are used.
 ##### Advantage:
 - No splashing
 ##### Disadvantage:
