@@ -3,7 +3,7 @@ Playlist - [Tikle's Academy](https://www.youtube.com/playlist?list=PLNKD1qB9pptv
 - [x] All Formulas ✅ 2026-07-28
 - [x] Solved Problem 1 ✅ 2026-08-05
 - [x] Solved Problem 2 ✅ 2026-08-08
-- [ ] Solved Problem 3
+- [x] Solved Problem 3 ✅ 2026-08-08
 - [ ] Solved Problem 4
 - [ ] Solved Problem 5
 - [ ] Solved Problem 6
