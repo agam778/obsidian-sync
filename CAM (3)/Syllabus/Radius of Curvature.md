@@ -7,5 +7,5 @@ Playlist - [Tikle's Academy](https://www.youtube.com/playlist?list=PLNKD1qB9pptv
 - [x] Solved Problem 4 ✅ 2026-08-09
 - [x] Solved Problem 5 (not in syllabus) ✅ 2026-08-09 
 - [x] Solved Problem 6 (not in syllabus) ✅ 2026-08-09
-- [ ] Solved Problem 7
-- [ ] Solved Problem 8
+- [x] Solved Problem 7 ✅ 2026-08-09
+- [x] Solved Problem 8 ✅ 2026-08-09
