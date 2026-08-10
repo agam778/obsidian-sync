@@ -4,6 +4,6 @@ int main(void)
 {
     int a = 017, b = 2, c = 0;
     c = a + b;
-    char A = 'A';
-    printf("%c", A);
+    int main = 10;
+    printf("%d", main);
 }
