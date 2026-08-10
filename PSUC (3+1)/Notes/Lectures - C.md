@@ -43,3 +43,4 @@ Variable:
 - Memory size is decided by the datatype
 ### Tokens:
 - The smallest element of a program is called token.
+
