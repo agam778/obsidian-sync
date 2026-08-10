@@ -44,3 +44,4 @@ Variable:
 ### Tokens:
 - The smallest element of a program is called token.
 
+Q. a=096, b=125, c=a+b; 
