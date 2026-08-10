@@ -44,4 +44,5 @@ Variable:
 ### Tokens:
 - The smallest element of a program is called token.
 
-Q. a=017, b=2, c=a+b; so c would be 17 since we convert octal to decimal
+> [!Important] a=017, b=2, c=a+b; so c would be 17 since we convert octal to decimal
+
