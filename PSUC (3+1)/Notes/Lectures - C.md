@@ -41,4 +41,5 @@ Statement: Expression followed by semi-colon.
 Variable:
 - Name of memory location
 - Memory size is decided by the datatype
-
+### Tokens:
+- 
