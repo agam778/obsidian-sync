@@ -41,11 +41,11 @@ Statement: Expression followed by semi-colon.
 Variable:
 - Name of memory location
 - Memory size is decided by the datatype
-### Tokens:
+#### Tokens:
 - The smallest element of a program is called token.
 > [!Important] a=017, b=2, c=a+b; so c would be 17 since we convert octal to decimal
 - 256 Symbols in Character
-#### **String constant:**
+#### String constant:**
 - Characters enclosed into double quotes.
 - Last character of every string is null character.
 - ASCII value of null character is 0.
