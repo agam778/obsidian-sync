@@ -8,7 +8,7 @@ int main(void)
     printf("Enter second number: ");
     scanf("%d", &n2);
     printf("y or n: ");
-    scanf("%c", c);
+    scanf("%c", &c);
     if (c == 'y')
     {
         printf("Sum: %d\n", n1 + n2);
