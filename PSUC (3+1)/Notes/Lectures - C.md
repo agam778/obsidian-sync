@@ -47,3 +47,4 @@ Variable:
 > [!Important] a=017, b=2, c=a+b; so c would be 17 since we convert octal to decimal
 
 - 256 Symbols in Character
+
