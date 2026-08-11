@@ -15,8 +15,5 @@ int main(void)
     {
         printf("Sum: %d\n", n1 + n2);
     }
-    else
-    {
-    }
     return 0;
 }
