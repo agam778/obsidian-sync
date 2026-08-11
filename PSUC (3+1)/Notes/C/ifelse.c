@@ -12,7 +12,7 @@ int main(void)
     // getchar();
     printf("y or n: ");
     scanf("%c", &yn);
-    if (getchar() == 'y')
+    if (yn == 'y')
     {
         printf("Sum: %d\n", n1 + n2);
     }
