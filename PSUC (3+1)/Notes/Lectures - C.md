@@ -48,3 +48,4 @@ Variable:
 
 - 256 Symbols in Character
 
+**String constant:** Characters enclosed into double quotes.
