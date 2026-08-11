@@ -48,4 +48,7 @@ Variable:
 
 - 256 Symbols in Character
 
-**String constant:** Characters enclosed into double quotes.
+**String constant:**
+- Characters enclosed into double quotes.
+- Last character of every string is null character.
+- ASCII value of null character is 0.
