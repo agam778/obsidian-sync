@@ -9,9 +9,8 @@ int main(void)
     scanf("%d", &n1);
     printf("Enter second number: ");
     scanf("%d", &n2);
-    // getchar();
     printf("y or n: ");
-    scanf("%c", &yn);
+    scanf(" %c", &yn);
     if (yn == 'y')
     {
         printf("Sum: %d\n", n1 + n2);
