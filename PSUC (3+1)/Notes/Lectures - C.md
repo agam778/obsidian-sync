@@ -53,3 +53,4 @@ Variable:
 **Invalid identifiers:**
 1sum, total=marks, @value, %count, sum value, float (keyword), do (keyword), a+b
 
+> [!Important] Macro function for Quiz
