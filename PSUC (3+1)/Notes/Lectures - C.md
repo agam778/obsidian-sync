@@ -54,3 +54,5 @@ Variable:
 1sum, total=marks, @value, %count, sum value, float (keyword), do (keyword), a+b
 
 > [!Important] Macro function for Quiz
+
+- `enum` is a keyword which is used to create list of integer constant
