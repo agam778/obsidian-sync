@@ -57,3 +57,4 @@ Variable:
 
 - **`enum`** is a keyword which is used to create list of integer constant
 - Value of first symbolic constant is 0 by default and other values are one increment of previous one.
+
