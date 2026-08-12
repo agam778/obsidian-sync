@@ -60,3 +60,4 @@ Variable:
 
 - We can also create constant variables using `const` keyword.
 - If you want to use any variable as a constant, then we can use `const` keyword before its definition place.
+- `const` means you cannot change the value of a variable later in the program
