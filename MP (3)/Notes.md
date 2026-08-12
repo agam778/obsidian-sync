@@ -31,3 +31,13 @@ All Ferrous Materials are used.
 - It indicates if the cavity is completely filled or not.
 - It helps in escaping out the gases from the casting.
 - It helps in shrinkage compensation. 
+
+### Die casting:
+#### Two types:
+- Pressure die casting
+- Gravity die casting
+#### Hot chamber die casting:
+- Low melting point alloys are used like Zinc and Magnesium
+- Aluminium isn't used because it has a sticky nature and sticks to gooseneck
+#### Cold chamber die casting:
+- **Disadvantage**: Voids can be created
