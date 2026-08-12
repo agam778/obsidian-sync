@@ -55,4 +55,4 @@ Variable:
 
 > [!Important] Macro function for Quiz
 
-- `enum` is a keyword which is used to create list of integer constant
+- **`enum`** is a keyword which is used to create list of integer constant
