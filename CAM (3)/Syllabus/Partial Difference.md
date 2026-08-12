@@ -1,0 +1,5 @@
+- [x] Lecture 1 ✅ 2026-08-12
+- [x] Lecture 2 ✅ 2026-08-12
+- [x] Lecture 3 ✅ 2026-08-12
+- [ ] Lecture 4
+- [ ] Lecture 5
