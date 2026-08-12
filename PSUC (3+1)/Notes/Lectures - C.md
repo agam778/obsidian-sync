@@ -50,6 +50,6 @@ Variable:
 - Last character of every string is null character.
 - ASCII value of null character is 0.
 
-**Invalid identifier:**
+**Invalid identifiers:**
 1sum, total=marks, @value, %count, sum value, float (keyword), do (keyword), a+b
 
