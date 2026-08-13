@@ -41,3 +41,4 @@ All Ferrous Materials are used.
 - Aluminium isn't used because it has a sticky nature and sticks to gooseneck
 #### Cold chamber die casting:
 - **Disadvantage**: Voids can be created
+
