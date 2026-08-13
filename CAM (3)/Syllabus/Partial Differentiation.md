@@ -4,7 +4,7 @@
 - [x] Lecture 4 ✅ 2026-08-13
 - [x] Lecture 5 ✅ 2026-08-13
 - [x] Lecture 6 ✅ 2026-08-13
-- [ ] Lecture 7
+- [x] Lecture 7 ✅ 2026-08-13
 - [ ] Lecture 8
 - [ ] Lecture 9
 - [ ] Lecture 10
