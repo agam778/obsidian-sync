@@ -2,5 +2,6 @@
 
 int main(void) {
     int y;
-    printf("Enter year: ")
+    printf("Enter year: ");
+    scanf("%d")
 }
