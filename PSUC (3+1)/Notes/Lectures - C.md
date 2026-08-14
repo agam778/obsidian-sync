@@ -82,4 +82,5 @@ q. why add f for float
 
 ### Input in C:
 #### Input using `scanf`:
+- Static input: `float x=12.65f; int a=12; etc.`
 - 
