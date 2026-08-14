@@ -64,4 +64,3 @@ Library file is included with `<>`, User-defined file is included with `""`
 - If you want to use any variable as a constant, then we can use `const` keyword before its definition place.
 - `const` means you cannot change the value of a variable later in the program.
 #### Values:
-Q1. 
