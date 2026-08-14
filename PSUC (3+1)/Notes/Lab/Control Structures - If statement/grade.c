@@ -14,5 +14,7 @@ int main(void)
     {
         printf("D");
     }
-    else if ()
+    else if (g==5 || g==6) {
+        
+    }
 }
