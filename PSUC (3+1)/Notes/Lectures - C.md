@@ -67,3 +67,6 @@ Library file is included with `<>`, User-defined file is included with `""`
 In char, if 130, then it will print negative value like +127+3=-126
 cycle is like +126, +127, -128, -127, -126
 (research)
+
+in int, if signed int, then we actually get 15 bits because 1 bit is for +/-, but if unsigned int, we get all 16 bits because there's no need of sign here.
+
