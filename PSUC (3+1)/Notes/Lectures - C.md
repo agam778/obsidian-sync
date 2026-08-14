@@ -72,3 +72,6 @@ in int, if signed int, then we actually get 15 bits because 1 bit is for +/-, bu
 so signed int range 2 power -15 to 2 power 15
 
 if outside range, overflow, it will give negative value instead of positive
+
+learn byte size for viva of datatypes
+float has mantissa part and exponent part
