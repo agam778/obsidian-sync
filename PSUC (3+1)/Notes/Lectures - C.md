@@ -80,3 +80,4 @@ q. why add f for float
 - f shows that it is a floating point constant
 - if f not added it means double constant
 
+### Input in C:
