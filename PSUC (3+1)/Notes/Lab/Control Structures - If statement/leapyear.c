@@ -3,5 +3,6 @@
 int main(void) {
     int y;
     printf("Enter year: ");
-    scanf("%d")
+    scanf("%d", &y);
+
 }
