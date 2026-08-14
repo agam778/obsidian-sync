@@ -37,10 +37,12 @@ Library file is included with `<>`, User-defined file is included with `""`
 `#define MAX(a,b) ((a)>(b)?(a):(b))`
 
 ### Datatype, variable and constant:
-Statement: Expression followed by semi-colon.
-Variable:
-- Name of memory location
+**Statement:** Expression followed by semi-colon.
+**Variable:**
+- Name of memory location where value can be changed during the execution of the program
 - Memory size is decided by the datatype
+**Datatype:** Keyword which is used to specify memory and type of value stored into a variable
+**Modifiers:** Keyword which is used before datatypes
 #### Tokens:
 - The smallest element of a program is called token.
 > [!Important] a=017, b=2, c=a+b; so c would be 17 since we convert octal to decimal
@@ -61,3 +63,4 @@ Variable:
 - We can also create constant variables using `const` keyword.
 - If you want to use any variable as a constant, then we can use `const` keyword before its definition place.
 - `const` means you cannot change the value of a variable later in the program.
+
