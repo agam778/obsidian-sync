@@ -71,3 +71,4 @@ cycle is like +126, +127, -128, -127, -126
 in int, if signed int, then we actually get 15 bits because 1 bit is for +/-, but if unsigned int, we get all 16 bits because there's no need of sign here.
 so signed int range 2 power -15 to 2 power 15
 
+if outside range, overflow, it will give negative value instead of positive
