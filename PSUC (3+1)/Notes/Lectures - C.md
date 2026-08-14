@@ -81,3 +81,5 @@ q. why add f for float
 - if f not added it means double constant
 
 ### Input in C:
+#### Input using `scanf`:
+- 
