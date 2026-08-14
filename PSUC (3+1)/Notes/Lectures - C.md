@@ -76,3 +76,7 @@ if outside range, overflow, it will give negative value instead of positive
 learn byte size for viva of datatypes
 float has mantissa part and exponent part
 
+q. why add f for float
+- f shows that it is a floating point constant
+- if f not added it means double constant
+- 
