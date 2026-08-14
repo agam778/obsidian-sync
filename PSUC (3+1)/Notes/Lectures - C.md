@@ -64,3 +64,7 @@ Library file is included with `<>`, User-defined file is included with `""`
 - If you want to use any variable as a constant, then we can use `const` keyword before its definition place.
 - `const` means you cannot change the value of a variable later in the program.
 #### Values:
+In char, if 130, then it will print negative value like +127+3=-126
+cycle is like +126, +127, -128, -127, -126
+(research)
+
