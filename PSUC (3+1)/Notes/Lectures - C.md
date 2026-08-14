@@ -84,4 +84,5 @@ q. why add f for float
 #### Input using `scanf`:
 - Static input: `float x=12.65f; int a=12; etc.`
 - If we are using more than one format specifier, input can be separated by default terminators like space, enter or tab, or you can also specify your own terminator: `scanf("%f,%f", &a, &b)`, which will use the , terminator.
+- If we use `%*d`, `*` is the skip symbol so it will take the input but will not store it.
 
