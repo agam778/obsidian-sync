@@ -13,7 +13,7 @@
 
 int main(void)
 {
-    int n = 6769, sum = 0;
+    int n = 2349, sum = 0;
 
     sum += n % 10;
     n /= 10;
@@ -24,6 +24,5 @@ int main(void)
     sum += n % 10;
 
     printf("Sum of digits = %d\n", sum);
-
     return 0;
 }
