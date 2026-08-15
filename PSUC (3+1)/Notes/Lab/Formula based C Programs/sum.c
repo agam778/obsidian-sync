@@ -13,10 +13,7 @@
 
 int main(void)
 {
-    int n, sum = 0;
-
-    printf("Enter a 4-digit number: ");
-    scanf("%d", &n);
+    int n = 3279, sum = 0;
 
     sum += n % 10;
     n /= 10;
