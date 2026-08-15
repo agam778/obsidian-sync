@@ -9,6 +9,7 @@ int main(void)
     m = ((time % 3600) / 60);
     s = (time % 60);
 
-    printf("Hours: %d\nMinutes: %d\nSeconds: %d\n", h, m, s);
+    printf("Hours: %d\nMinutes: %d\nSeconds: %d\n",
+        h, m, s);
     return 0;
 }
