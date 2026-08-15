@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    float temp, C = 0, F = 0;
+    float temp, C, F;
 
     // Fahrenheit to Centigrade
     printf("Enter temperature (in F): ");
