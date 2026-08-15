@@ -7,7 +7,7 @@ int main(void)
     // Fahrenheit to Centigrade
     printf("Enter temperature (in F): ");
     scanf("%f", &temp);
-    C = (temp - 32.0) * (5.0 / 9.0f);
+    C = (temp - 32.0) * (5.0 / 9.0);
     printf("Temperature in C: %.2f\n\n", C);
 
     // Centigrade to Fahrenheit
