@@ -21,7 +21,7 @@
 	1. Step 1: Start
 	2. Step 2: Input Number
 	3. Step 3: Check if remainder of Number divided by 2 is 0
-	4. Step 4: If yes, display "Even Number" and go to Step 6
+	4. Step 4: If yes, display "Even Number"
 	5. Step 5: If no, display "Odd Number"
 	6. Step 6: Stop
 ##### To swap two numbers.
@@ -38,7 +38,7 @@
 	1. Step 1: Start 
 	2. Step 2: Input Number
 	3. Step 3: Check if Number is less than 10
-	4. Step 4: If yes, display "True" and go to Step 6
+	4. Step 4: If yes, display "True" 
 	5. Step 5: If no, display "False"
 	6. Step 6: Stop
 ##### To convert Fahrenheit to Celsius.
@@ -69,16 +69,16 @@
 	4. Step 4: Print value of SI
 	5. Step 5: Stop
 ##### To check whether the given number is prime or not.
-- [[Prime.drawio.pdf]]
+- [[Prime.drawio.pdf]] (Replace Number with a)
 - Algorithm:
 	1. Step 1: Start
-	2. Step 2: Input Number
-	3. Step 3: Check if number is less than or equal to 1
+	2. Step 2: Input a
+	3. Step 3: Check if a is less than or equal to 1
 	4. Step 4: If yes, display "Not Prime" and go to Step 12
 	5. Step 5: If no, set i = 2
-	6. Step 6: Check if i \* i is greater than Number
+	6. Step 6: Check if i \* i is greater than a
 	7. Step 7: If yes, display "Prime" and go to Step 12
-	8. Step 8: If no, calculate number % i and store result in R
+	8. Step 8: If no, calculate a % i and store result in R
 	9. Step 9: Check if R is equal to 0
 	10. Step 10: If yes, display "Not Prime" and go to Step 12
 	11. Step 11: If no, increment i by 1 and go to Step 6
