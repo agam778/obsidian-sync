@@ -114,5 +114,4 @@ statement
 
 > [!Important] Learn operators (Lecture 10) for exams
 
-
-
+> [!Important] Precedence
