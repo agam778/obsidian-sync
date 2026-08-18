@@ -12,4 +12,4 @@
 - [ ] Lecture 12
 - [ ] Lecture 13
 - [ ] Lecture 14
-- [ ] Lecture 15
+- [ ] Lecture 15z
