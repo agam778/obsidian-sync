@@ -76,7 +76,7 @@ if outside range, overflow, it will give negative value instead of positive
 learn byte size for viva of datatypes
 float has mantissa part and exponent part
 
-q. why add f for float
+Q. why add f for float
 - f shows that it is a floating point constant
 - if f not added it means double constant
 
@@ -85,4 +85,30 @@ q. why add f for float
 - Static input: `float x=12.65f; int a=12; etc.`
 - If we are using more than one format specifier, input can be separated by default terminators like space, enter or tab, or you can also specify your own terminator: `scanf("%f,%f", &a, &b)`, which will use the , terminator.
 - If we use `%*d`, `*` is the skip symbol so it will take the input but will not store it.
+
+### If-else:
+- When execution of statement depends on some condition, then we use if-else statement
+
+```C
+if (condition) {
+statement // Runs when condition is non-zero/true
+}
+else {
+statement // Runs when condition is zero/false
+}
+```
+
+- If block will run if the condition is non-zero/true, else if zero/false
+- If these blocks contain only one statement, then braces are option.
+- If true block does not contain any statement:
+
+```C
+if (condition); // Null statement
+else {
+statement
+}
+```
+
+- If-else can be nested according to application.
+	- Nested: If-else inside if-else
 
