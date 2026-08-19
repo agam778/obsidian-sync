@@ -5,4 +5,7 @@
 5. A'B
 6. Invert both inputs of a NOR gate
 7. 1
-8. 
+8. The output is undefined or irrelevant
+9. 0
+10. Minterm
+11. 
