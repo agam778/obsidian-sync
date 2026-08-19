@@ -116,3 +116,5 @@ statement
 
 > [!Important] Precedence
 
+### Operators
+- Increment works only on variables 
