@@ -3,4 +3,5 @@
 3. They can be used to build any other basic gate
 4. Sum-of-Products (SOP)
 5. A'B
-6. 
+6. Invert both inputs of a NOR gate
+7. 
