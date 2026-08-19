@@ -9,4 +9,5 @@
 9. 0
 10. Minterm
 11. A + B = B + A
-12. 
+12. Any input is 1
+13. 
