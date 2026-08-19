@@ -10,4 +10,6 @@
 10. Minterm
 11. A + B = B + A
 12. Any input is 1
-13. 
+13. SOP Form
+14. NOT Gate
+15. not in syllabus
