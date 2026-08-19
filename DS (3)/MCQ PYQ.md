@@ -8,4 +8,5 @@
 8. The output is undefined or irrelevant
 9. 0
 10. Minterm
-11. 
+11. A + B = B + A
+12. 
