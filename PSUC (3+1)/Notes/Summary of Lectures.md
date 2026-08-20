@@ -64,11 +64,33 @@
 > [!danger] Classic Macro Trap
 > `#define SQUARE(x) x*x` then `SQUARE(2+3)` → expands to `2+3*2+3` = **11**, NOT 25. Always wrap macro params (and the whole expression) in parentheses.
 
+## Identifiers and Tokens
+- **Tokens** are the smallest individual units in a C program. Types include:
+    - **Keywords:** Reserved words (e.g., `int`, `if`, `return`).
+    - **Identifiers:** User-defined names for variables, functions, arrays, etc.
+    - **Constants:** Fixed values.
+    - **String Literals:** Sequences of characters in double quotes.
+    - **Operators:** Symbols performing operations.
+    - **Separators:** Used to separate elements (e.g., `( )`, `{ }`, `,`, `;`).
+    - **Preprocessor Directives:** Instructions starting with `#`.
+
+### Rules for Identifiers
+- Can contain letters (A-Z, a-z), digits (0-9), and underscores (`_`).
+- Must start with a letter or underscore; **cannot start with a digit**.
+- No special characters (`@`, `#`, `$`, `%`, etc.) allowed.
+- C is **case-sensitive** (`sum` $\neq$ `Sum` $\neq$ `SUM`).
+- Cannot be a keyword.
+- Best practices: Use *camelCase*, *snake_case*, or *UPPER_CASE* (usually for macros).
+
 ---
 
 # Data Types, Variables & Constants
 
-## Format Specifiers
+A **variable** is a named memory location used to store data that can be modified during program execution.
+
+## Data Types
+C has primary (built-in) data types: Integer, Character, Floating Point, and Void.
+
 | Type | Specifier | Typical Size |
 |---|---|---|
 | `char` | `%c` | 1B |
@@ -83,13 +105,18 @@
 | `string` | `%s` | |
 
 ## Constants
-- Integer constants: decimal (123), octal (**starts with 0**, e.g. 0123), hex (starts with **0x/0X**)
+Constants are fixed values that do not change during execution.
+- **Integer constants:** decimal (123), octal (**starts with 0**, e.g. 0123), hex (starts with **0x/0X**)
 - 8-bit signed integer range: **-128 to +127**, stored via **two's complement**
     - To get two's complement of a negative number: binary of magnitude → invert bits (1's complement) → add 1
-- Float constants: e.g., `3.14`, `6.022e23` (scientific notation)
-- Character constant: single quotes `'A'`; String constant: double quotes `"Hello"`. (note: `'5'` ≠ `5` — char vs int)
-- `const int g = 10;` — value can't change after initialization
-- **enum**: first member = 0 by default, each next increments by 1 (can override explicitly, e.g. `A=5` then B=6, C=10, D=11...)
+- **Floating-point constants:** e.g., `3.14`, `6.022e23` (scientific notation). Stored in IEEE 754 standard format (Sign bit + Exponent + Mantissa).
+- **Character constant:** single quotes `'A'`; **String constant:** double quotes `"Hello"`. (note: `'5'` $\neq$ `5` — char vs int)
+- `const int g = 10;` — value can't change after initialization.
+
+### Enumeration (`enum`)
+Used to create symbolic names for a set of integer constants.
+- By default, the first member = 0, and each subsequent member increments by 1.
+- You can explicitly set values: `enum Number { A = 5, B, C = 10, D, E };` (Here B=6, D=11, E=12).
 
 ## Formatting Tricks
 > [!note] `scanf()` Tricks
@@ -111,6 +138,7 @@
 
 - **Precedence (high→low):** `* / %` → `+ -` → relational (`< <= > >=`) → equality (`== !=`) → `&&` → `||` → assignment
 - **Associativity:** left-to-right for arithmetic/relational/logical; same-precedence ops evaluated left to right
+    - *Exception:* Assignment (`=`, `+=`, etc.), Ternary (`?:`), Unary (`+`, `-`, `!`, `~`, `++`, `--`, `(type)`, `*`, `&`, `sizeof`) evaluate **right-to-left**.
 
 ## Increment/Decrement
 - `++var` (prefix): increment **first**, then use value
@@ -125,21 +153,31 @@
 - Logical AND `&&`, OR `||`, NOT `!` → result is always 0 or 1
 - **Bitwise:** `&` AND, `|` OR, `^` XOR, `~` complement, `<<` shift left, `>>` shift right
     - Examples: 12 & 25 = 8; 12 | 25 = 29; 12 ^ 25 = 21; ~35 = -36 (complement of N = -(N+1))
-- **Assignment shorthand:** `count += 10;` ≡ `count = count + 10;` `a /= b + c;` ≡ `a = a / (b + c);` (whole RHS grouped)
+- **Assignment shorthand:** `count += 10;` $\equiv$ `count = count + 10;` `a /= b + c;` $\equiv$ `a = a / (b + c);` (whole RHS grouped)
 - **Ternary/Conditional operator:** `condition ? expr1 : expr2;`
 
 > [!danger] Semantic Error Trap
-> `if (5 <= x <= 10)` is a **semantic error**. Evaluates left to right as `(5<=x) <= 10`, which is always true (result 0 or 1, always ≤10). Must write `x>=5 && x<=10`.
+> `if (5 <= x <= 10)` is a **semantic error**. Evaluates left to right as `(5<=x) <= 10`, which is always true (result 0 or 1, always $\leq$ 10). Must write `x>=5 && x<=10`.
 
 ---
 
 # Control Structures
 
-- 3 control types: **Sequential, Selectional (decision), Iterational (repetition)**
-- Forms of `if`: simple if, if-else, nested if-else, else-if ladder, jump statements (break/continue/goto/return)
-- **Dangling else rule:** an `else` binds to the **nearest unmatched `if`**, unless braces say otherwise
-- **else-if ladder:** only ONE branch executes; first true condition wins, rest are skipped
-- Leap year logic: divisible by 4 AND (not divisible by 100 OR divisible by 400)
+Control structures determine the order of program execution.
+- 3 control types: **Sequential, Selectional (decision/branching), Iterational (repetition)**.
+
+## Decision Making & Branching
+Forms of selection statements:
+1.  **Simple `if` statement**
+2.  **`if-else` statement**
+3.  **Nested `if-else` statement**
+4.  **`else-if` ladder**
+5.  **`switch` statement**
+6.  **Jump statements:** `break`, `continue`, `goto`, `return`
+
+- **Dangling else rule:** an `else` binds to the **nearest unmatched `if`**, unless braces indicate otherwise.
+- **else-if ladder:** only ONE branch executes; first true condition wins, rest are skipped.
+- Leap year logic: divisible by 4 AND (not divisible by 100 OR divisible by 400).
 
 > [!bug] Empty Statement Bug
 > `if (x == 0);` — the trailing semicolon creates an **empty statement**. The `printf` after it always executes regardless of the condition (syntactically valid, semantically a bug).
