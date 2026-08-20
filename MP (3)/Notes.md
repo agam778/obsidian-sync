@@ -42,3 +42,4 @@ All Ferrous Materials are used.
 #### Cold chamber die casting:
 - **Disadvantage**: Voids can be created
 
+
