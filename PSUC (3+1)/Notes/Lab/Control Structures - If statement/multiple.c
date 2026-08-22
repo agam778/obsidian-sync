@@ -14,3 +14,4 @@ int main(void)
         printf("%d and %d are not multiples of each other.", n1, n2);
     return 0;
 }
+
