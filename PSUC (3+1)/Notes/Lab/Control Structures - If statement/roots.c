@@ -9,16 +9,8 @@ int main(void)
     if (d == 0)
         printf("Root is: %.2f\n", -b / (2 * a));
     else if (d > 0)
-    {
-        float x1 = (-b + sqrt(d)) / (2 * a);
-        float x2 = (-b - sqrt(d)) / (2 * a);
-        printf("Roots are: %.2f, %.2f\n", (-b + sqrt(d)) / (2 * a);
-        float x2 = (-b - sqrt(d)) / (2 * a));
-    }
+        printf("Roots are: %.2f, %.2f\n", (-b + sqrt(d)) / (2 * a), (-b - sqrt(d)) / (2 * a));
     else
-    {
         printf("There are no real roots.\n");
-    }
-
     return 0;
 }
