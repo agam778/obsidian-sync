@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int n1, n2, n3;
+    int a, b, c;
     printf("Enter three sides: ");
-    scanf("%d%d%d", &n1, &n2, &n3);
-    
+    scanf("%d%d%d", &a, &b, &c);
+    if ((a+b>c))
 }
