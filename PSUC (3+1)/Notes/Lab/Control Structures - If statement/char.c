@@ -14,7 +14,7 @@ int main(void)
     {
         printf("%c is a vowel", c);
     }
-    else
+    else if (c>='b' || )
     {
         printf("%c is a consonant", c);
     }
