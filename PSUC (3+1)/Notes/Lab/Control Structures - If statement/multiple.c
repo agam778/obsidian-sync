@@ -12,4 +12,5 @@ int main(void)
         printf("%d is a multiple of %d", n2, n1);
     else
         printf("%d and %d are not multiples of each other.");
+    return 0;
 }

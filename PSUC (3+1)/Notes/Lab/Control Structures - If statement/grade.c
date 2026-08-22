@@ -18,4 +18,5 @@ int main(void)
         printf("A");
     else
         printf("Invalid grade");
+    return 0;
 }
