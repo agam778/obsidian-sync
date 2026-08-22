@@ -7,11 +7,20 @@ int main(void)
     float d = b * b - 4 * a * c;
 
     if (d == 0)
-        printf("Roots are: %.2f, %.2f", -b / 2 * a);
-
+    {
+        float x = -b / (2 * a);
+        printf("Root is: %.2f\n", x);
+    }
     else if (d > 0)
-        printf("Roots are: %.2f, %.2f", -b + sqrt(d / 2 * a), -b - sqrt(d / 2 * a));
-
+    {
+        float x1 = (-b + sqrt(d)) / (2 * a);
+        float x2 = (-b - sqrt(d)) / (2 * a);
+        printf("Roots are: %.2f, %.2f\n", x1, x2);
+    }
     else
-        printf("There are no real roots.");
+    {
+        printf("There are no real roots.\n");
+    }
+
+    return 0;
 }
