@@ -8,8 +8,8 @@ int main(void)
 
     if (n1 % n2 == 0)
         printf("%d is a multiple of %d", n1, n2);
-
     else if (n2 % n1 == 0)
         printf("%d is a multiple of %d", n2, n1);
     else
+        printf("%d and %d are not multiples of each other.");
 }
