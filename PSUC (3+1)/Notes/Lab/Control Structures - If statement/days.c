@@ -7,5 +7,11 @@ int main(void)
     scanf("%d", y);
     printf("Enter no. of months: ");
     scanf("%d", m);
-    if (m > )
+    if (m < 1 || m > 12)
+        printf("Enter valid no. of months.");
+    
+    if (m >= 1)
+        d+=31;
+    if (m >= 2)
+        if ((y%4==0) && (y%100!=0) || (yea))
 }
