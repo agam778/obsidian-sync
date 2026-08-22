@@ -14,12 +14,14 @@ int main(void)
     {
         printf("%c is a vowel", c);
     }
-    else if ((c >= 'b' && c <= 'z') || (c >= 'B' && c <= 'Z'))
+    else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
     {
         printf("%c is a consonant", c);
     }
     else
     {
-        printf("%c is not a digit, vowel or consonant");
+        printf("%c is not a digit, vowel or consonant", c);
     }
+
+    return 0;
 }
