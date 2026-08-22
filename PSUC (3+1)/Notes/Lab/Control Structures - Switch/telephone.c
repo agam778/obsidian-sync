@@ -6,16 +6,16 @@ int main(void)
     float bill;
 
     printf("Enter calls: ");
-    scanf("%d", calls);
+    scanf("%d", &calls);
 
-    switch (calls <= 150 ? 0 : calls <= 250 ? 0.9
-                           : calls <= 400   ? 1.2
-                                            : 1.5)
+    switch (calls <= 150 ? 0 : calls <= 250 ? 1
+                           : calls <= 400   ? 2
+                                            : 3)
     {
     case 0:
-    case 0.9:
-    case 1.2:
-    case 1.5:
-        printf("temp");
+    case 1:
+    case 2:
+    case 3:
+    default:
     }
 }
