@@ -6,5 +6,5 @@ int main(void)
     float d = b * b - 4 * a * c;
 
     if (d == 0)
-        printf("Roots are: %f", )
+        printf("Roots are: %f, %f", )
 }
