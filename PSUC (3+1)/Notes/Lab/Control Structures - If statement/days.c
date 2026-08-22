@@ -6,7 +6,7 @@ int main(void)
 
     printf("Enter year: ");
     scanf("%d", &y);
-    printf("Enter month: ");
+    printf("Enter months: ");
     scanf("%d", &m);
 
     if (m < 1 || m > 12)
