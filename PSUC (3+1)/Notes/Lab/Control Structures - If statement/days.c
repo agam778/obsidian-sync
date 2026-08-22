@@ -25,5 +25,7 @@ int main(void)
         d+=31;
     if (m>=6)
         d+=30;
-        
+    if (m>=7)
+        d+=31;
+    if(m>=8)
 }
