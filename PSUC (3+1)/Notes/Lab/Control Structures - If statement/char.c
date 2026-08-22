@@ -18,4 +18,8 @@ int main(void)
     {
         printf("%c is a consonant", c);
     }
+    else
+    {
+        printf("%c is not a digit, vowel or consonant");
+    }
 }
