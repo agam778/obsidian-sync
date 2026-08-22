@@ -12,4 +12,4 @@
 - [x] Lecture 12 ✅ 2026-08-22
 - [x] Lecture 13 ✅ 2026-08-22
 - [x] Lecture 14 ✅ 2026-08-22
-- [ ] Lecture 15
+- [ ] Lecture 15 (H/W question left)
