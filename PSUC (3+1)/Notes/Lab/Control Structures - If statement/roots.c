@@ -10,5 +10,8 @@ int main(void)
         printf("Roots are: %.2f, %.2f", -b / 2 * a);
 
     else if (d > 0)
-        printf("Roots are: %.2f, %.2f", -b + sqrt(d / 2 * a), );
+        printf("Roots are: %.2f, %.2f", -b + sqrt(d / 2 * a), -b - sqrt(d / 2 * a));
+
+    else
+        printf("There are no real roots.");
 }
