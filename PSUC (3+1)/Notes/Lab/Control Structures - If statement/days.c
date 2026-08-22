@@ -21,11 +21,22 @@ int main(void)
         d += 31;
     if (m >= 4)
         d += 30;
-    if (m>=5)
-        d+=31;
-    if (m>=6)
-        d+=30;
-    if (m>=7)
-        d+=31;
-    if(m>=8)
+    if (m >= 5)
+        d += 31;
+    if (m >= 6)
+        d += 30;
+    if (m >= 7)
+        d += 31;
+    if (m >= 8)
+        d += 31;
+    if (m >= 9)
+        d += 30;
+    if (m >= 10)
+        d += 31;
+    if (m >= 11)
+        d += 30;
+    if (m == 12)
+        d += 31;
+
+    printf("Number of days: %d", d);
 }
