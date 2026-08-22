@@ -11,5 +11,5 @@
 - [x] Lecture 11 ✅ 2026-08-18
 - [x] Lecture 12 ✅ 2026-08-22
 - [x] Lecture 13 ✅ 2026-08-22
-- [ ] Lecture 14
+- [x] Lecture 14 ✅ 2026-08-22
 - [ ] Lecture 15
