@@ -1,3 +1,6 @@
+#### Compilation process:
+- Preprocessor -> 
+
 `<stdio.h>` - Standard I/O - From Buffer
 `<conio.h>` - Console I/O - From Console
 
