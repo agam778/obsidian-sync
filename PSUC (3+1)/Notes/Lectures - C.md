@@ -1,6 +1,6 @@
 #### Compilation process:
 - Preprocessor $\longrightarrow$ Compiler $\longrightarrow$ Assembler $\longrightarrow$ Linker $\longrightarrow$ Machine Code
-- (PCAL) 
+- (PCAL) $\longrightarrow$ M/C
 
 `<stdio.h>` - Standard I/O - From Buffer
 `<conio.h>` - Console I/O - From Console
