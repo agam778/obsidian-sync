@@ -1,5 +1,5 @@
 #### Compilation process:
-- Preprocessor $\longrightarrow$  Compiler 
+- Preprocessor $\longrightarrow$ Compiler $\longrightarrow$ Assembler $\longrightarrow$ Linker $\longrightarrow$ Machine Code
 
 `<stdio.h>` - Standard I/O - From Buffer
 `<conio.h>` - Console I/O - From Console
