@@ -1,4 +1,4 @@
 - [x] Lecture 1PSUC ✅ 2026-08-23
 - [x] Lecture 2 ✅ 2026-08-23
 - [x] Lecture 3 ✅ 2026-08-23
-- [ ] Lecture 3 - Questions
+- [ ] Lecture 3_Questions
