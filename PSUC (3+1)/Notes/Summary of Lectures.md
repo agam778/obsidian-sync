@@ -86,23 +86,23 @@
 
 # Data Types, Variables & Constants
 
-A **variable** is a named memory location used to store data that can be modified during program execution.
+A **variable** is a named memory location used to store data that can be modified **duluring** program execution.
 
 ## Data Types
 C has primary (built-in) data types: Integer, Character, Floating Point, and Void.
 
-| Type | Specifier | Typical Size |
-|---|---|---|
-| `char` | `%c` | 1B |
-| `short int` | `%hd` | 2B |
-| `int` | `%d` | 4B |
-| `unsigned int` | `%u` | |
-| `long int` | `%ld` | 4/8B |
-| `long long int` | `%lld` | 8B |
-| `float` | `%f` | 4B |
-| `double` | `%lf` | 8B |
-| `long double` | | 10/12/16B |
-| `string` | `%s` | |
+| Type            | Specifier | Typical Size |
+| --------------- | --------- | ------------ |
+| `char`          | `%c`      | 1B           |
+| `short int`     | `%hd`     | 2B           |
+| `int`           | `%d`      | 4B           |
+| `unsigned int`  | `%u`      |              |
+| `long int`      | `%ld`     | 4/8B         |
+| `long long int` | `%lld`    | 8B           |
+| `float`         | `%f`      | 4B           |
+| `double`        | `%lf`     | 8B           |
+| `long double`   |           | 10/12/16B    |
+| `string`        | `%s`      |              |
 
 ## Constants
 Constants are fixed values that do not change during execution.
