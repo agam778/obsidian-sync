@@ -1,3 +1,5 @@
+Playlist - [Pradeep Giri](https://www.youtube.com/playlist?list=PLT3bOBUU3L9iRoyhs8V1Io-xEsjfq4zI0)
+
 - [x] Lecture 1 ✅ 2026-08-12
 - [x] Lecture 2 ✅ 2026-08-12
 - [x] Lecture 3 ✅ 2026-08-12
@@ -12,4 +14,4 @@
 - [x] Lecture 12 ✅ 2026-08-22
 - [x] Lecture 13 ✅ 2026-08-22
 - [x] Lecture 14 ✅ 2026-08-22
-- [ ] Lecture 15 (H/W question left)
+- [x] Lecture 15 ✅ 2026-08-24
