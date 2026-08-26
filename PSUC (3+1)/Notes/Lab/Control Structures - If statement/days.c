@@ -24,11 +24,11 @@ int main(void)
     }
     else if (m == 4 || m == 6 || m == 9 || m == 11)
     {
-        d = 30;
+        d += 30;
     }
     else
     {
-        d = 31;
+        d += 31;
     }
 
     printf("Number of days: %d", d);
