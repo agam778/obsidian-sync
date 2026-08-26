@@ -26,7 +26,7 @@ int main(void)
         else
             d = 28;
     }
-    else if (m >= 4 || m >= 6 || m >= 9 || m >= 11)
+    if (m >= 4 || m >= 6 || m >= 9 || m >= 11)
     {
         d += 30;
     }
