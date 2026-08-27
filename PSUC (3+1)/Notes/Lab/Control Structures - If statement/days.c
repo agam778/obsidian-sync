@@ -6,35 +6,34 @@ int main(void)
 
     printf("Enter year: ");
     scanf("%d", &y);
-    printf("Enter months: ");
+    printf("Enter number of months (1-12): ");
     scanf("%d", &m);
 
     if (m < 1 || m > 12)
     {
-        printf("Enter valid month.");
+        printf("Enter a valid month (1-12).\n");
         return 0;
     }
 
-    if (m >= 1)
+    int feb = 28;
+    if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0))
     {
-        d += 31;
-    }
-    if (m >= 2)
-    {
-        if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0))
-            d += 29;
-        else
-            d += 28;
-    }
-    if (m >= 4 || m >= 6 || m >= 9 || m >= 11)
-    {
-        d += 30;
-    }
-    else
-    {
-        d += 31;
+        feb = 29;
     }
 
-    printf("Number of days: %d", d);
+    if (m >= 1)  d += 31;
+    if (m >= 2)  d += feb;
+    if (m >= 3)  d += 31;
+    if (m >= 4)  d += 30;
+    if (m >= 5)  d += 31;
+    if (m >= 6)  d += 30;
+    if (m >= 7)  d += 31;
+    if (m >= 8)  d += 31;
+    if (m >= 9)  d += 30;
+    if (m >= 10) d += 31;
+    if (m >= 11) d += 30;
+    if (m >= 12) d += 31;
+
+    printf("Number of days: %d\n", d);
     return 0;
 }
