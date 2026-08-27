@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int y, m, feb, d = 0;
+    int y, m, d = 0;
 
     printf("Enter year: ");
     scanf("%d", &y);
@@ -15,10 +15,11 @@ int main(void)
         return 0;
     }
 
+    int feb = 28;
     if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0))
+    {
         feb = 29;
-    else 
-        feb = 28;
+    }
 
     if (m >= 1)  d += 31;
     if (m >= 2)  d += feb;
