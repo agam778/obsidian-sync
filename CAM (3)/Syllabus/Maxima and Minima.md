@@ -1,4 +1,4 @@
 - [x] [Lecture 1](https://www.youtube.com/watch?v=In3oZPIymm8) ✅ 2026-08-28
-- [ ] Lecture 2 (notes left)
+- [ ] [Lecture 2](https://www.youtube.com/watch?v=T5HzdeSnlhM) (notes left)
 - [ ] [Lecture 3](https://www.youtube.com/watch?v=etLoYBJMCX8)
 - [ ] Lecture 4
