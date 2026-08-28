@@ -1,2 +1,4 @@
-- [ ] [Lecture 1](https://www.youtube.com/watch?v=In3oZPIymm8)
-- [ ] 
+- [x] [Lecture 1](https://www.youtube.com/watch?v=In3oZPIymm8) ✅ 2026-08-28
+- [ ] Lecture 2
+- [ ] Lecture 3
+- [ ] Lecture 4
