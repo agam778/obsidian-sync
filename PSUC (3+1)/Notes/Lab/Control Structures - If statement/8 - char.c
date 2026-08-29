@@ -23,7 +23,8 @@ int main(void)
     }
     else
     {
-        printf("%c is not a digit, vowel or consonant\n", c);
+        printf("%c is not a digit, vowel or consonant\n", 
+            c);
     }
 
     return 0;
