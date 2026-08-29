@@ -8,6 +8,12 @@ int main(void)
     printf("Enter three sides: ");
     scanf("%f%f%f", &a, &b, &c);
 
+    if (a <= 0 || b <= 0 || c <= 0)
+    {
+        printf("Sides must be positive.\n");
+        return 0;
+    }
+
     if ((a + b > c) && (b + c > a) && (a + c > b))
     {
         s = (a + b + c) / 2.0;
