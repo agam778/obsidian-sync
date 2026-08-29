@@ -10,11 +10,14 @@ int main(void)
     {
         printf("%c is a digit\n", c);
     }
-    else if (c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' || c == 'u' || c == 'U')
+    else if (c == 'a' || c == 'A' || c == 'e' || c == 'E'
+        || c == 'i' || c == 'I' || c == 'o' 
+        || c == 'O' || c == 'u' || c == 'U')
     {
         printf("%c is a vowel\n", c);
     }
-    else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+    else if ((c >= 'a' && c <= 'z') 
+        || (c >= 'A' && c <= 'Z'))
     {
         printf("%c is a consonant\n", c);
     }
