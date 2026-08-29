@@ -8,7 +8,7 @@ int main(void)
 
     if (g < 0 || g > 10)
     {
-        printf("Invalid score. Please enter a value between 0 and 10.\n");
+        printf("Please enter a grade between 0 and 10.\n");
         return 0;
     }
 
