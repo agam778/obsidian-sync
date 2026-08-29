@@ -12,11 +12,11 @@ int main(void)
     {
         s = (a + b + c) / 2.0;
         area = sqrt(s * (s - a) * (s - b) * (s - c));
-        printf("Area of triangle: %.2f", area);
+        printf("Area of triangle: %.2f\n", area);
     }
     else
     {
-        printf("These sides do not form a triangle.");
+        printf("These sides do not form a triangle.\n");
     }
 
     return 0;
