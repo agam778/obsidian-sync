@@ -122,3 +122,42 @@ statement
 
 ### Operators
 - Increment works only on variables, not constants.
+
+Bitwise operator important
+
+Q. Swapping of two numbers without using third variable/using bitwise operator 
+
+Bitwise Shift Operator
+
+Ternary operator can be nested as per requirement (we should avoid)
+
+Q. Take input weight, output = price
+0-100g: 50/-
+100-150: 50/- + 2/-
+150-200: 100/- + 5/-
+200+: 350/- + 10/-
+
+Q. Input PCM marks out of 100
+
+### Switch case:
+If statement execution depends on logical condition, then we use if-else statement.
+If statement execution depends on integer constant, then we use switch case.
+Default case is optional, or we can write at any place.
+#### Working:
+1. The expression inside the switch case is evaluated (it must return integer value).
+2. The value of the expression is compared with each case value.
+3. If a matching case is found, execution starts from that case to end of the case.
+4. If no case matches, the default block is executed (execution starts from default block to end of the statement).
+
+If you want to execute only matching cases, then we use `break` statement at the end.
+
+Keywords:
+- `break`
+- `jump`
+- `continue`
+- `return`
+- `goto`
+
+When `break` statement is encountered by the compiler/runtime system, it transfers the control out of the block. 
+
+For range: `case 80 ... 89:`
