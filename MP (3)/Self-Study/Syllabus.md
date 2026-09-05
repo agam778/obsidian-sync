@@ -1,6 +1,5 @@
 ## Casting
 - [ ] Lecture 2
-	- Start from Pattern Allowances
 - [ ] Lecture 3
 - [ ] Lecture 4
 - [ ] Lecture 5
