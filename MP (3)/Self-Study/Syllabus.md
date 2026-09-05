@@ -1,5 +1,3 @@
-St
-
 ## Casting
 - [ ] Lecture 2
 - [ ] Lecture 3
@@ -7,3 +5,4 @@ St
 - [ ] Lecture 5
 - [ ] Lecture 6
 - [ ] Lecture 7
+- [ ] Stella Notes
