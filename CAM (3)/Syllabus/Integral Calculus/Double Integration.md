@@ -1,6 +1,6 @@
 - [x] Lecture 1 ✅ 2026-09-04
 - [x] Lecture 2 ✅ 2026-09-05
-- [ ] Lecture 3
+- [x] Lecture 3 ✅ 2026-09-05
 - [ ] Lecture 4
 - [ ] Lecture 5
 - [ ] Lecture 6
