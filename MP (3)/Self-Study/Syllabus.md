@@ -5,4 +5,3 @@
 - [ ] Lecture 5
 - [ ] Lecture 6
 - [ ] Lecture 7
-- [ ] Stella Notes
