@@ -60,9 +60,10 @@
 
 int main(void)
 {
-    int n = 123, t = 0, d = 0, i = 1;
-    while (t / 10 != 0)
+    int n = 123, t = n, d = 0, i = 0;
+    while (t)
     {
+        t = t / 10;
         i++;
     }
     printf("%d", i);
