@@ -51,6 +51,9 @@ int main(void)
         sum = sum * 10 + d;
         n = n / 10;
     }
-    printf("%d", sum);
+    printf("%d\n", sum);
     if (n1 == sum)
+        printf("P No.");
+    else
+        printf("Not P No.");
 }
