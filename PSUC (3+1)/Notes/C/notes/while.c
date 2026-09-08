@@ -58,6 +58,7 @@
 //         printf("Not P No.");
 // }
 
+// Check if number is an Armstrong Number
 int main(void)
 {
     int n = 123, t = n, d = 0, i = 0;
@@ -66,5 +67,6 @@ int main(void)
         t = t / 10;
         i++;
     }
-    printf("%d", i);
+
+    
 }
