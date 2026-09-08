@@ -161,3 +161,40 @@ Keywords:
 When `break` statement is encountered by the compiler/runtime system, it transfers the control out of the block. 
 
 For range: `case 80 ... 89:`
+
+Q5, Q6, Q7 of Lab 4 important
+
+### Loops:
+When we want to execute some statements `n` times, then we use looping statement.
+Three types:
+- `for`
+- `while`
+- `do while`
+
+#### `for` loop:
+```C
+for (stm1;stm2;stm3)
+{
+	stm[s];
+}
+```
+
+> [!Important] All three statements are optional
+
+If `stm1` and `stm3` has more than 1 expression, then we use `,` operator to separate them.
+
+#### `while` loop:
+```C
+while (expression)
+{
+	stm[s];
+}
+```
+
+#### `do while` loop:
+```C
+do {
+	stm[s];
+} while (expression)
+```
+
