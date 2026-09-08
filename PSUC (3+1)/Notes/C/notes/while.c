@@ -43,6 +43,7 @@
 int main(void)
 {
     int n = 12345, d = 0, sum = 0;
+    int n1 = n;
     while (n > 0)
     {
         d = n % 10;
@@ -51,4 +52,5 @@ int main(void)
         n = n / 10;
     }
     printf("%d", sum);
+    if (n1 == sum)
 }
