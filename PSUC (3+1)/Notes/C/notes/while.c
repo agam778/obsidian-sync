@@ -62,5 +62,8 @@ int main(void)
 {
     int n = 123, t = 0, d = 0, i = 1;
     while (t / 10 != 0)
+    {
         i++;
+    }
+    printf("%d", i);
 }
