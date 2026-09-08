@@ -40,20 +40,25 @@
 //     }
 // }
 
+// int main(void)
+// {
+//     int n = 12345, d = 0, sum = 0;
+//     int n1 = n;
+//     while (n > 0)
+//     {
+//         d = n % 10;
+//         // printf("%d", d);
+//         sum = sum * 10 + d;
+//         n = n / 10;
+//     }
+//     printf("%d\n", sum);
+//     if (n1 == sum)
+//         printf("P No.");
+//     else
+//         printf("Not P No.");
+// }
+
 int main(void)
 {
-    int n = 12345, d = 0, sum = 0;
-    int n1 = n;
-    while (n > 0)
-    {
-        d = n % 10;
-        // printf("%d", d);
-        sum = sum * 10 + d;
-        n = n / 10;
-    }
-    printf("%d\n", sum);
-    if (n1 == sum)
-        printf("P No.");
-    else
-        printf("Not P No.");
+    
 }
