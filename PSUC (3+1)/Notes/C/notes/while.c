@@ -60,8 +60,7 @@
 
 int main(void)
 {
-    int n = 123, d = 0, sum = 0;
-    while (n > 0)
-        d = n % 10;
-        
+    int n = 123, t = 0, d = 0, i = 1;
+    while (t / 10 != 0)
+        i++;
 }
