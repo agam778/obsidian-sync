@@ -59,12 +59,68 @@
 // }
 
 // Check if number is an Armstrong Number
+// int main(void)
+// {
+//     int n = 123, t = n, d = 0, i = 0;
+//     while (t)
+//     {
+//         t = t / 10;
+//         i++;
+//         // .......
+//     }
+// }
+
+// int main(void)
+// {
+//     int n = 5, fact = 1, i = 1;
+//     while (i <= n)
+//     {
+//         fact = fact * i;
+//         i++;
+//     }
+//     printf("Factorial: %d", fact);
+// }
+
+// int main(void)
+// {
+//     int x = 7, y = 5, pow = 1;
+//     for (int i = 1; i <= y; i++)
+//         pow = pow * x;
+//     printf("%d", pow);
+//     return 0;
+// }
+
+// int main(void)
+// {
+//     int n = 29;
+//     int isPrime = 1;
+
+//     if (n <= 1)
+//     {
+//         isPrime = 0;
+//     }
+//     else
+//     {
+//         for (int i = 2; i * i <= n; i++)
+//         {
+//             if (n % i == 0)
+//             {
+//                 isPrime = 0;
+//                 break;
+//             }
+//         }
+//     }
+
+//     if (isPrime)
+//         printf("%d is prime", n);
+//     else
+//         printf("%d is not prime", n);
+
+//     return 0;
+// }
+
+// Fibbonaci Series
 int main(void)
 {
-    int n = 123, t = n, d = 0, i = 0;
-    while (t)
-    {
-        t = t / 10;
-        i++;
-    }   
+    
 }
