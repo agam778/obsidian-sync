@@ -71,3 +71,4 @@ Clean Surface ➔ Prepare Joint ➔ Apply Flux (if needed) ➔ Assemble with Cor
 | **Temperature** | $< 450^\circ\text{C}$ | $> 450^\circ\text{C}$ | Higher |
 | **Heat Input** | Low | Low to Moderate | Often High |
 | **Dissimilar metals** | Good | Excellent | Difficult |
+
