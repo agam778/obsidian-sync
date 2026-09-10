@@ -126,9 +126,11 @@
 
 int main(void)
 {
-    int n = 3;
-    for (int i = 1; i <= n; i++)
+    int n = 3, r = 2;
+    for (int i = 1; i <= r; i++)
     {
-        printf("***\n", n);
+        for (int i1 = 1; i1 <= n; i1++)
+            printf("*");
+        printf("\n");
     }
 }
