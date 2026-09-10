@@ -152,7 +152,7 @@ Default case is optional, or we can write at any place.
 If you want to execute only matching cases, then we use `break` statement at the end.
 
 Keywords:
-- `break`: When break statement is encountered, it transfers the control from the current block of the program
+- `break`: When break statement is encountered, it transfers the control from the current block of the program out of the current block.
 - `jump`: Transfers the control from one statement to another within the program.
 - `continue`: 
 - `return`
