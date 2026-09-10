@@ -153,8 +153,8 @@ If you want to execute only matching cases, then we use `break` statement at the
 
 Keywords:
 - `break`
-- `jump`
-- `continue`
+- `jump`: Transfers the control from one statement to another within the program.
+- `continue`: 
 - `return`
 - `goto`
 
