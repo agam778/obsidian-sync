@@ -154,17 +154,15 @@ If you want to execute only matching cases, then we use `break` statement at the
 **Keywords:**
 - `break`: When break statement is encountered, it transfers the control from the current block of the program out of the current block.
 - `jump`: Transfers the control from one statement to another within the program.
-- `continue`: We can use continue statement within a loop only. It skips all theremaining statements of the loop
-```
-- `return`
+- `continue`: We can use continue statement within a loop only. It skips all the remaining statements of the loop and transfers the control to the next cycle of the loop.
+- `return`: 
 - `goto`
 
 When `break` statement is encountered by the compiler/runtime system, it transfers the control out of the block. 
 
 For range: `case 80 ... 89:`
 
-Q5, Q6, Q7 of Lab 4 important
-
+> [!Important] Q5, Q6, Q7 of Lab 4 important
 ### Loops:
 When we want to execute some statements `n` times, then we use looping statement.
 Three types:
