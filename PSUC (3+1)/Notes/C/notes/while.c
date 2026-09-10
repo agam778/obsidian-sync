@@ -126,8 +126,8 @@
 
 int main(void)
 {
-    int n = 3, r = 2;
-    for (int i = 1; i <= r; i++)
+    int n = 7;
+    for (int i = 1; i <= n; i++)
     {
         for (int i1 = 1; i1 <= n; i1++)
             printf("*");
