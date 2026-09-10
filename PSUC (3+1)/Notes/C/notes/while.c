@@ -129,6 +129,6 @@ int main(void)
     int n = 3;
     for (int i = 1; i <= n; i++)
     {
-        printf("*", n);
+        printf("***\n", n);
     }
 }
