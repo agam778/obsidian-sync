@@ -6,3 +6,4 @@
 - I/O `getchar` `putchar` `gets` `puts`
 - If-else comes in flowchart
 - **Switch statement - 4 marks confirm**
+- and more. (till 23?)
