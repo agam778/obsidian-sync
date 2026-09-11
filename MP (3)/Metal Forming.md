@@ -11,3 +11,5 @@ zinc can be used central part does not break
 two types of classification 
 hot extrusion                                                                                cold extrusion 
 direct and indirect extrusion                   forward extrusion backward extrusion hydrostatic extrusion
+direct = when the movement of the material is in the direction of the pushing 
+indirect = when the movement is in the opposite direction 
