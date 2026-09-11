@@ -1,4 +1,5 @@
 Difference b/w Extrusion and Wire
 close die manufacturing process flash coming out 
-within 
+within high temperature  
+extrusion 
 
