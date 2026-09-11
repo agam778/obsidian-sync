@@ -3,4 +3,7 @@ close die manufacturing process flash coming out
 within high temperature  
 extrusion we press at the bottom 
 container we've got two different blocks 
+dummy block provides the uniform force along the line 
+dummy block wear and tear new dummy block is brought 
+billet die ultimately the work piece will be formed 
 
