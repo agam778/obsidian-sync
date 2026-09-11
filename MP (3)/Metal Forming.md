@@ -6,4 +6,4 @@ container we've got two different blocks
 dummy block provides the uniform force along the line 
 dummy block wear and tear new dummy block is brought 
 billet die ultimately the work piece will be formed 
-tubes 
+tubes parde ke dande metal piece 
