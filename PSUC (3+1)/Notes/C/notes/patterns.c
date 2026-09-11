@@ -49,7 +49,7 @@ int main(void)
     int n = 5;
     for (int i = 1; i <= n; i++)
     {
-        for (int k = 0; k <= n - 1; k++)
+        for (int k = 5; k >= n; k--)
             printf(" ");
         for (int j = 1; j <= n; j++)
             printf("%d", j);
