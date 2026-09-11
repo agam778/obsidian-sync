@@ -57,12 +57,5 @@
 //     }
 // }
 
-int main(void)
-{
-    int n = 3;
-    for (int s = 1; s <= n - 1; s++)
-        printf(" ");
-    for (int i = 1; i <= (2 * n - 1); i++)
-        printf("*");
-    printf("\n");
-}
+// Pending diamond
+
