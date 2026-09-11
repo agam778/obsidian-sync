@@ -44,15 +44,15 @@
 //     }
 // }
 
-int main(void)
-{
-    int n = 5;
-    for (int i = 1; i <= n; i++)
-    {
-        for (int k = 1; k < i; k++)
-            printf(" ");
-        for (int j = i; j <= n; j++)
-            printf("%d", j);
-        printf("\n");
-    }
-}
+// int main(void)
+// {
+//     int n = 5;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int k = 1; k < i; k++)
+//             printf(" ");
+//         for (int j = i; j <= n; j++)
+//             printf("%d", j);
+//         printf("\n");
+//     }
+// }
