@@ -1,6 +1,7 @@
 ### Notes
 - [x] Lecture 2 ✅ 2026-09-12
 - [ ] Lecture 3
+	- Continue from types of moulding sand
 - [ ] Lecture 4
 - [ ] Lecture 5
 - [ ] Lecture 6
