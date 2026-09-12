@@ -1,3 +1,4 @@
 ### Module 1:
-Start from Lime-Soda Process
-Learn EDTA method steps
+- Theory part all covered
+- Flashcards from Gemini Notebook completed
+- Numericals from PPT left
