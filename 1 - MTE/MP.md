@@ -1,5 +1,5 @@
 ### Notes
-- [ ] Lecture 2
+- [x] Lecture 2 ✅ 2026-09-12
 - [ ] Lecture 3
 - [ ] Lecture 4
 - [ ] Lecture 5
