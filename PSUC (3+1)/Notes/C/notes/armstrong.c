@@ -15,7 +15,7 @@ int main(void)
     }
 
     if (sum == n1)
-        printf("%d is an armstrong number");
+        printf("%d is an armstrong number", );
     else 
         printf("%d is not an armstrong number");
 }
