@@ -10,12 +10,15 @@ int main(void)
     for (int i = 0; i < 3; i++)
     {
         d = n % 10;
-        sum = sum + d * d * d;
+        printf("%d\n", d);
+        sum = sum + (d * d * d);
+        printf("%d\n", sum);
         n = n / 10;
+        printf("%d\n", n);
     }
 
     if (sum == n1)
-        printf("%d is an armstrong number", );
-    else 
-        printf("%d is not an armstrong number");
+        printf("%d is an armstrong number\n", n1);
+    else
+        printf("%d is not an armstrong number\n", n1);
 }
