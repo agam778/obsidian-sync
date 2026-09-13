@@ -12,3 +12,7 @@
 //     printf("\n");
 // }
 
+int main(void)
+{
+    int n = 
+}
