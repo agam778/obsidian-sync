@@ -20,5 +20,5 @@ int main(void)
         n = n / 10;
     }
     printf("Output: No");
-    return 0;
+    return 0;   
 }
