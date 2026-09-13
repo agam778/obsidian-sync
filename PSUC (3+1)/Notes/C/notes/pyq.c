@@ -3,7 +3,7 @@
 int main(void)
 {
     char name[50];
-    int unit, charge;
+    int unit, bill;
 
     printf("Enter name: ");
     scanf("%s", &name);
@@ -11,14 +11,18 @@ int main(void)
     printf("Enter number of units: ");
     scanf("%d", &unit);
 
+    if (unit <= 0)
+
     switch (unit)
     {
     case 0 ... 200:
-        charge = unit * 1;
+        bill = unit * 1;
         break;
     case 201 ... 300:
-        charge = unit * 2;
+        bill = unit * 2;
         break;
-    
+    default:
+        bill = unit * 5;
+        break;
     }
 }
