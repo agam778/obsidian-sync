@@ -16,6 +16,7 @@ int main(void)
     case 0 ... 200:
         charge = unit * 1;
         break;
-    case 
+    case 201 ... 300:
+        charge = 
     }
 }
