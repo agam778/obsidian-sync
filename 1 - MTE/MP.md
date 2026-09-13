@@ -2,7 +2,9 @@
 - [x] Lecture 2 ✅ 2026-09-12
 - [x] Lecture 3 ✅ 2026-09-12
 - [ ] Lecture 4
+	- [ ] POSSIBLE
 - [ ] Lecture 5
+	- [ ] POSSIBLE
 - [ ] Lecture 6
 - [ ] Lecture 7
 - [ ] Lecture 8
