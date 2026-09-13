@@ -3,18 +3,15 @@
 
 int main(void)
 {
-    int n, n1, sum, d;
+    int n, n1, sum = 0, d;
     printf("Enter a number: ");
     scanf("%d", &n);
     n1 = n;
     for (int i = 0; i < 3; i++)
     {
         d = n % 10;
-        printf("%d\n", d);
         sum = sum + (d * d * d);
-        printf("%d\n", sum);
         n = n / 10;
-        printf("%d\n", n);
     }
 
     if (sum == n1)
