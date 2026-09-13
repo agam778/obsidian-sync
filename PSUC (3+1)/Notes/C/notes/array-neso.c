@@ -28,6 +28,7 @@ int main(void)
         else
         {
             seen[d] = d;
+            n = n / 10;
         }
     }
 }
