@@ -4,13 +4,14 @@
 int main(void)
 {
     int n, a, sum = 0;
+    n = pow(3, 0);
     printf("Enter value of a: ");
     scanf("%d", &a);
     printf("Enter value of n: ");
     scanf("%d", &n);
     for (int i = 0; i <= n; i++)
     {
-        sum = pow(a, i);
+        sum = sum + pow(a, i);
         printf("%d\n", sum);
     }
     printf("%d\n", sum);
