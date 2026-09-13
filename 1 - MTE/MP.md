@@ -3,6 +3,7 @@
 - [x] Lecture 3 ✅ 2026-09-12
 - [x] Lecture 4 ✅ 2026-09-13
 - [ ] Lecture 5
+	- [ ] HOT
 - [ ] Lecture 6
 - [ ] Lecture 7
 - [ ] Lecture 8
