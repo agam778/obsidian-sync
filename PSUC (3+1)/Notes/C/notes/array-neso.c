@@ -25,13 +25,13 @@ int main(void)
             if (seen[d] == 0)
                 continue;
             printf("Output: Yes");
-            break;
+            return 0;
         }
         else
         {
             seen[d] = d;
             n = n / 10;
         }
-        
     }
+    printf("Output: No");
 }
