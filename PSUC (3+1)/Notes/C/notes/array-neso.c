@@ -11,7 +11,8 @@ int main(void)
     //     arr[i] = n;
     // }
     // printf("\n");
-    for (int i = 0; i < N; i++)
+    int arr[] = {1, 2, [3]=67}
+    for (int i = 0; i < arr.len; i++)
     {
         printf("Number %d: %d\n", i + 1, arr[i]);
     }
