@@ -8,5 +8,8 @@ int main(void)
     printf("Input: ");
     scanf("%d", &n);
 
-    w
+    while (n > 0)
+    {
+        
+    }
 }
