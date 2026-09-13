@@ -12,6 +12,10 @@ int main(void)
     scanf("%d", &unit);
 
     if (unit <= 0)
+    {
+        printf("Enter valid number of units.");
+        return 0;
+    }
 
     switch (unit)
     {
@@ -25,4 +29,6 @@ int main(void)
         bill = unit * 5;
         break;
     }
+
+    
 }
