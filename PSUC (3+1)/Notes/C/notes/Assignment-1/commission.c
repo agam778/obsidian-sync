@@ -18,5 +18,5 @@ int main(void)
     else
         printf("Please enter a valid number.");
 
-    printf("Commission: ")
+    printf("Commission: %d", c);
 }
