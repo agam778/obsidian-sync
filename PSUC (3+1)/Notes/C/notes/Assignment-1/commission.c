@@ -16,7 +16,11 @@ int main(void)
     else if (s >= 30001)
         c = (s * 0.15) - s;
     else
+    {
         printf("Please enter a valid number.");
+        return 0;
+    }
 
     printf("Commission: %.2f", c);
+    return 0;
 }
