@@ -22,5 +22,6 @@ int main(void)
         d = n % 10;
         arr[i] = d;
         n = n / 10;
+        printf("%d ", )
     }
 }
