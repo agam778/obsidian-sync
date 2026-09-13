@@ -14,8 +14,13 @@
 
 int main(void)
 {
-    int n, arr[10] = {0};
+    int arr[10] = {0}, n, d;
     printf("Input: ");
     scanf("%d", &n);
-    for (i=0; i<10; i++)
+    for (int i = 0; i < 10; i++)
+    {
+        d = n % 10;
+        arr[i] = d;
+        n = n / 10;
+    }
 }
