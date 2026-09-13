@@ -3,7 +3,7 @@
 int main(void)
 {
     char name[50];
-    int unit, bill;
+    int unit;bill;
 
     printf("Enter name: ");
     scanf("%s", &name);
