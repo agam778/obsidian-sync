@@ -3,6 +3,9 @@
 
 int main(void)
 {
-    int n;
+    int n, sum, d;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
     
 }
