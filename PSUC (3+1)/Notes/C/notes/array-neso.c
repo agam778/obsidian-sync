@@ -17,5 +17,5 @@ int main(void)
     int n;
     printf("Input: ");
     scanf("%d", &n);
-    printf("%d", )
+     
 }
