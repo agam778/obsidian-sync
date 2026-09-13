@@ -7,5 +7,5 @@ int main(void)
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    
+    for (int i = 0; i < 3; i++)
 }
