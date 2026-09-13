@@ -34,5 +34,5 @@ int main(void)
         bill = 100;
 
     if (bill < 400)
-        
+        bill += bill * 0.15;
 }
