@@ -11,7 +11,7 @@ int main(void)
     while (n > 0)
     {
         d = n % 10;
-        if (seen[d] == 1)
+        if (seen[d])
         {
             printf("Output: Yes");
             return 0;
