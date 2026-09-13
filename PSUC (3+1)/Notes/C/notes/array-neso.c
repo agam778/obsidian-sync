@@ -13,7 +13,11 @@ int main(void)
         d = n % 10;
         if (seen[d] == 1)
         {
-            printf("Yes");
+            printf("Output: Yes");
+            return 0;
         }
+        seen[d] = 1;
+        n = n / 10;
     }
+    printf("Output: No");
 }
