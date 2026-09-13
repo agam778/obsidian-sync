@@ -8,26 +8,5 @@ int main(void)
     printf("Input: ");
     scanf("%d", &n);
 
-    if (n == 0)
-    {
-        printf("Output: No\n");
-        return 0;
-    }
-
-    while (n != 0)
-    {
-        d = n % 10;
-
-        if (seen[d])
-        {
-            printf("Output: Yes\n");
-            return 0;
-        }
-
-        seen[d] = 1;
-        n /= 10;
-    }
-
-    printf("Output: No\n");
-    return 0;
+    
 }
