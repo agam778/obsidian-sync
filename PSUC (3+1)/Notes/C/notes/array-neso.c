@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    int arr[N] = {1, 2, 3, 4, 5, 6, 7};
-    return 0;
+    int arr[N];
+    arr[] = {1, 2, , 3, 4, 5, 6, 7};
 }
