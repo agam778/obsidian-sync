@@ -14,5 +14,8 @@
 
 int main(void)
 {
-    int n = 
+    int n;
+    printf("Input: ");
+    scanf("%d", &n);
+    printf("")
 }
