@@ -10,7 +10,7 @@ int main(void)
     scanf("%d", &n);
     for (int i = 0; i <= n; i++)
     {
-        sum = sum + pow(a, i);
+        sum = pow(a, i);
         printf("%d\n", sum);
     }
     printf("%d\n", sum);
