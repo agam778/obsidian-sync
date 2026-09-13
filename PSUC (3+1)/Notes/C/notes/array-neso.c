@@ -24,8 +24,4 @@ int main(void)
         n = n / 10;
         printf("%d ", arr[i]);
     }
-    for (int i = 0; i < 10; i++)
-    {
-        
-    }
 }
