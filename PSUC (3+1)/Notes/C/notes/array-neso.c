@@ -10,8 +10,9 @@ int main(void)
         scanf("%d", &n);
         arr[i] = n;
     }
+    printf("\n");
     for (int i = 0; i < N; i++)
     {
-        printf("Number %d: %d", i + 1, arr[i]);
+        printf("Number %d: %d\n", i + 1, arr[i]);
     }
 }
