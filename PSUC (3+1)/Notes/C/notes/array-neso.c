@@ -20,7 +20,7 @@ int main(void)
     for (int i = 0; i < 10; i++)
     {
         d = n % 10;
-        arr[(sizeof(int) - i)] = d;
+        arr[i] = d;
         n = n / 10;
         printf("%d ", arr[i]);
     }
