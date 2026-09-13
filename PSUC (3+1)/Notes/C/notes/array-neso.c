@@ -20,9 +20,11 @@ int main(void)
     for (int i = 0; i < 10; i++)
     {
         d = n % 10;
-        printf("%d", d)
+        printf("%d", d);
         if (seen[d] == d)
         {
+            if (seen[d] == 0)
+                continue;
             printf("Output: Yes");
             break;
         }
