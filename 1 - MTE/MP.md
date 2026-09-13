@@ -5,8 +5,7 @@
 - [x] Lecture 4 ✅ 2026-09-13
 - [x] Lecture 5 ✅ 2026-09-13
 	- [ ] POSSIBLE
-- [ ] Lecture 6
-	- [ ] 
+- [x] Lecture 6 ✅ 2026-09-13
 - [ ] Lecture 7
 - [ ] Lecture 8
 - [ ] Lecture 9
