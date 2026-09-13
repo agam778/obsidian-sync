@@ -10,6 +10,10 @@ int main(void)
 
     while (n > 0)
     {
-        
+        d = n % 10;
+        if (seen[d] == 1)
+        {
+            printf("Yes");
+        }
     }
 }
