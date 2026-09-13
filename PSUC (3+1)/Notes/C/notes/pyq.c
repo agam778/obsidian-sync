@@ -2,12 +2,8 @@
 
 int main(void)
 {
-    char name[50];
     int unit;
     float bill;
-
-    printf("Enter name: ");
-    scanf("%s", &name);
 
     printf("Enter number of units: ");
     scanf("%d", &unit);
@@ -21,13 +17,13 @@ int main(void)
     switch (unit)
     {
     case 0 ... 200:
-        bill = unit * 1;
+        bill = unit * 1.0;
         break;
     case 201 ... 300:
-        bill = 200 + ((unit - 200) * 2);
+        bill = 200.0 + ((unit - 200.0) * 2.0);
         break;
     default:
-        bill = 200 + (100 * 2) + ((unit - 300) * 5);
+        bill = 200.0 + (100.0 * 2.0) + ((unit - 300.0) * 5.0);
         break;
     }
 
