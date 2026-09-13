@@ -3,7 +3,8 @@
 int main(void)
 {
     char name[50];
-    int unit;bill;
+    int unit;
+    float bill;
 
     printf("Enter name: ");
     scanf("%s", &name);
@@ -35,4 +36,6 @@ int main(void)
 
     if (bill < 400)
         bill += bill * 0.15;
+
+    printf("Bill: %d", bill);
 }
