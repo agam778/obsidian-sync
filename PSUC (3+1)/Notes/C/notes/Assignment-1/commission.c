@@ -6,7 +6,7 @@ int main(void)
     printf("Enter sales: ");
     scanf("%f", &s);
     if (s >= 0 && s <= 5000)
-        c = s;
+        c = 0;
     else if (s >= 5001 && s <= 12000)
         c = (s * 3.0) - s;
     else if (s >= 12001 && s <= 22000)
@@ -18,5 +18,5 @@ int main(void)
     else
         printf("Please enter a valid number.");
 
-    printf("Commission: %d", c);
+    printf("Commission: %.2f", c);
 }
