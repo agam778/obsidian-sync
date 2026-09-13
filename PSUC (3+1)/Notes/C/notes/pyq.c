@@ -30,5 +30,9 @@ int main(void)
         break;
     }
 
-    
+    if (bill < 100)
+        bill = 100;
+
+    if (bill < 400)
+        
 }
