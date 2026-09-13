@@ -8,13 +8,13 @@ int main(void)
     if (s >= 0 && s <= 5000)
         c = 0;
     else if (s >= 5001 && s <= 12000)
-        c = (s * 3.0) - s;
+        c = (s * 0.03) - s;
     else if (s >= 12001 && s <= 22000)
-        c = (s * 7.0) - s;
+        c = (s * 0.07) - s;
     else if (s >= 22001 && s <= 30000)
-        c = (s * 10.0) - s;
+        c = (s * 0.10) - s;
     else if (s >= 30001)
-        c = (s * 15.0) - s;
+        c = (s * 0.15) - s;
     else
         printf("Please enter a valid number.");
 
