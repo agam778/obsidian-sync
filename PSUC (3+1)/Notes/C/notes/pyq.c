@@ -23,10 +23,10 @@ int main(void)
         bill = unit * 1;
         break;
     case 201 ... 300:
-        bill = unit * 2;
+        bill = 200 + ((unit - 200) * 2);
         break;
     default:
-        bill = unit * 5;
+        bill = 200 + ((unit - 200) * 2) + ((unit - 300) * 5);
         break;
     }
 
