@@ -28,7 +28,7 @@ int main(void)
     }
 
     if (bill < 100)
-        bill = 100;
+        bill += 100;
 
     if (bill > 400)
         bill += bill * 0.15;
