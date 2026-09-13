@@ -20,7 +20,6 @@ int main(void)
     for (int i = 0; i < 10; i++)
     {
         d = n % 10;
-        printf("%d", d);
         if (seen[d] == d)
         {
             if (seen[d] == 0)
@@ -33,5 +32,6 @@ int main(void)
             seen[d] = d;
             n = n / 10;
         }
+        
     }
 }
