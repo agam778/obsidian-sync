@@ -26,7 +26,7 @@ int main(void)
         bill = 200 + ((unit - 200) * 2);
         break;
     default:
-        bill = 200 + ((unit - 200) * 2) + ((unit - 300) * 5);
+        bill = 200 + (100 * 2) + ((unit - 300) * 5);
         break;
     }
 
