@@ -14,14 +14,20 @@
 
 int main(void)
 {
-    int arr[10] = {0}, n, d;
+    int seen[10] = {0}, n, d;
     printf("Input: ");
     scanf("%d", &n);
     for (int i = 0; i < 10; i++)
     {
         d = n % 10;
-        arr[i] = d;
-        n = n / 10;
-        printf("%d ", arr[i]);
+        if (seen[d] == d)
+        {
+            printf("Output: Yes");
+            break;
+        }
+        else
+        {
+            seen[d] = d;
+        }
     }
 }
