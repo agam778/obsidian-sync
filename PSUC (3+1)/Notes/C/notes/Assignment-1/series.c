@@ -8,10 +8,10 @@ int main(void)
     scanf("%d", &a);
     printf("Enter value of n: ");
     scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i <= n; i++)
     {
         sum = sum + pow(a, i);
-        printf("%d", )
+        printf("%d\n", sum);
     }
-    printf("%d", sum);
+    printf("%d\n", sum);
 }
