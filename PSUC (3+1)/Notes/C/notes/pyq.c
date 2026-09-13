@@ -9,5 +9,11 @@ int main(void)
     scanf("%s", &name);
 
     printf("Enter number of units: ");
-    scanf("%")
+    scanf("%d", &u);
+
+    switch (u)
+    {
+        case 0 ... 200:
+            
+    }
 }
