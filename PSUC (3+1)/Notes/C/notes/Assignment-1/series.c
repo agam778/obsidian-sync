@@ -4,7 +4,6 @@
 int main(void)
 {
     int n, a, sum = 0;
-    n = pow(3, 0);
     printf("Enter value of a: ");
     scanf("%d", &a);
     printf("Enter value of n: ");
@@ -13,5 +12,5 @@ int main(void)
     {
         sum = sum + pow(a, i);
     }
-    printf("%d\n", sum);
+    printf("Sum: %d\n", sum);
 }
