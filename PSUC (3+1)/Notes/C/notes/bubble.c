@@ -6,7 +6,11 @@ int main(void)
     int target = 34;
 
     for (int i = 0; i < 5; i++)
-        if (arr[i] == target) {
-            
+        if (arr[i] == target)
+        {
+            printf("Key found at index: %d", i);
+            return 0;
         }
+    printf("Key not found");
+    return 0;
 }
