@@ -1,37 +1,33 @@
 #include <stdio.h>
-#define N 9
-
-// int main(void)
-// {
-//     int arr[N] = {34, 56, 54, 32, 67, 89, 90, 32, 21};
-//     for (int i = 0; i < N; i++)
-//         printf("%d ", arr[i]);
-//     printf("\n");
-//     for (int i = N - 1; i >= 0; i--)
-//         printf("%d ", arr[i]);
-//     printf("\n");
-// }
 
 int main(void)
 {
-    int seen[10] = {0}, n, d;
+    int seen[10] = {0};
+    int n, d;
+
     printf("Input: ");
     scanf("%d", &n);
-    for (int i = 0; i < 10; i++)
+
+    if (n == 0)
+    {
+        printf("Output: No\n");
+        return 0;
+    }
+
+    while (n != 0)
     {
         d = n % 10;
-        if (seen[d] == d)
+
+        if (seen[d])
         {
-            if (seen[d] == 0)
-                continue;
-            printf("Output: Yes");
+            printf("Output: Yes\n");
             return 0;
         }
-        else
-        {
-            seen[d] = d;
-            n = n / 10;
-        }
+
+        seen[d] = 1;
+        n /= 10;
     }
-    printf("Output: No");
+
+    printf("Output: No\n");
+    return 0;
 }
