@@ -1,3 +1,4 @@
+>[!Important] Check diagrams of all PPTs
 ### Notes
 - [x] Lecture 2 ✅ 2026-09-12
 - [x] Lecture 3 ✅ 2026-09-12
