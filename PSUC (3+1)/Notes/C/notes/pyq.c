@@ -3,17 +3,19 @@
 int main(void)
 {
     char name[50];
-    int u;
+    int unit, charge;
 
     printf("Enter name: ");
     scanf("%s", &name);
 
     printf("Enter number of units: ");
-    scanf("%d", &u);
+    scanf("%d", &unit);
 
-    switch (u)
+    switch (unit)
     {
-        case 0 ... 200:
-            
+    case 0 ... 200:
+        charge = unit * 1;
+        break;
+    case 
     }
 }
