@@ -197,3 +197,40 @@ do {
 } while (expression)
 ```
 
+## Arrays
+Collection of homogenous elements is called array
+There is no out of bound checking in an array.
+
+Syntax:
+```C
+int variable[12];
+```
+
+- Size of array can be calculated using - `sizeof(a)/sizeof(a[0])`
+### Definition of array
+```C
+#define N 20
+int a[5];
+char abc[2];
+float muj[N];
+```
+### Input in 1D-Array
+- Using index value
+- Index value starts from `0` to `n-1`
+
+```C
+int a[5] = {3, 58, 89, 42, 1};
+int a[] = {282, 392, 34};
+// int a[] = {0, [2] = 19, [9] = 2};
+for (int i = 0; i < 9; i++)
+	scanf("%d", &a[i]);
+```
+
+- Input in a particular element:
+```C
+a[3] = 10;
+```
+
+> [!Important] Lab - 7: Q7 - Very Important
+### Operations on 1-D array:
+#### Linear operations:
