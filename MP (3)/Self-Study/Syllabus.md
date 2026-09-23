@@ -1,7 +1,0 @@
-## Casting
-- [x] Lecture 2 ✅ 2026-09-05
-- [ ] Lecture 3
-- [ ] Lecture 4
-- [ ] Lecture 5
-- [ ] Lecture 6
-- [ ] Lecture 7
