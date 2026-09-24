@@ -22,9 +22,12 @@ int main()
     // printf("%d", ++d);
     // return 0;
 
-    int a = 5;
+    int a = 95;
 
-    switch(a) {
-        case 
+    switch (a)
+    {
+    case 90 ... 100:
+        printf("O");
+        break;
     }
 }
