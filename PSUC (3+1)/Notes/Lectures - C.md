@@ -236,3 +236,4 @@ a[3] = 10;
 > [!Important] Lab - 7: Q7 - Very Important
 
 Definition of Bitwise and Shift operator
+
