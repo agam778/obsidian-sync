@@ -29,6 +29,11 @@ int main()
     // printf("%f\n", 1234567.89);
     // printf("%g\n", 1234567.89);
     // printf("%G\n", 1234567.89);
-    int b=21;
-    printf("%d%%", b);
+    // int b=21;
+    // printf("%d%%", b);
+
+    int a = 5;
+    if (a == 4){
+        printf("a is not 4");
+    }
 }
