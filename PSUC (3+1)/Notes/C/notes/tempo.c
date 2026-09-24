@@ -9,6 +9,7 @@ int main()
     else if (b < a && b < c)
         printf("b is smallest");
     else
+    {
         printf("c is smallest");
-    printf("b is abc");
+    }
 }
