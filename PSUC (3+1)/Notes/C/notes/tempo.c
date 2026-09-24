@@ -14,4 +14,8 @@ int main()
             printf("greater than 7, less than 10");
         }
     }
+    else
+    {
+        printf("age is greater than 10");
+    }
 }
