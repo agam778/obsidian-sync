@@ -22,11 +22,13 @@ int main()
     // printf("%d", ++d);
     // return 0;
 
-    printf("%e\n", 1234567.89);
-    printf("%e\n", +1234567.89);
-    printf("%e\n", -1234567.89);
-    printf("%E\n", 1234567.89);
-    printf("%f\n", 1234567.89);
-    printf("%g\n", 1234567.89);
-    printf("%G\n", 1234567.89);
+    // printf("%e\n", 12345678.9);
+    // printf("%e\n", +1234567.89);
+    // printf("%e\n", -1234567.89);
+    // printf("%E\n", 1234567.89);
+    // printf("%f\n", 1234567.89);
+    // printf("%g\n", 1234567.89);
+    // printf("%G\n", 1234567.89);
+    int b=21;
+    printf("%6dBLABLA", b);
 }
