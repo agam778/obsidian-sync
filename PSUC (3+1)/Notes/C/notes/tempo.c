@@ -30,5 +30,5 @@ int main()
     // printf("%g\n", 1234567.89);
     // printf("%G\n", 1234567.89);
     int b=21;
-    printf("%.5dBLABLA", b);
+    printf("%d%%", b);
 }
