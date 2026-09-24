@@ -32,8 +32,19 @@ int main()
     // int b=21;
     // printf("%d%%", b);
 
-    int a = 5;
-    if (a == 4){
-        printf("a is not 4");
-    }
+    // int a = 5;
+    // if (a == 4)
+    // {
+    //     printf("a is not 4");
+    // }
+    // else if (a <= 5)
+    // {
+    //     printf("a is less than 5");
+    // }
+    // else
+    // {
+    //     printf("a is 5");
+    // }
+
+    
 }
