@@ -2,20 +2,6 @@
 
 int main()
 {
-    int age = 5;
-    if (age < 10)
-    {
-        if (age < 7)
-        {
-            printf("Less than 7");
-        }
-        else
-        {
-            printf("greater than 7, less than 10");
-        }
-    }
-    else
-    {
-        printf("age is greater than 10");
-    }
+    int a=10,b=12,c=14;
+    if (a < b)
 }
