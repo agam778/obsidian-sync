@@ -41,6 +41,7 @@ Library file is included with `<>`, User-defined file is included with `""`
 `#define MAX(a,b) ((a)>(b)?(a):(b))`
 
 ### Datatype, variable and constant:
+![459](http://1.bp.blogspot.com/-eoSq_7z2Nx4/VL4bwD5RD-I/AAAAAAAADmE/BEAv36yhilQ/s1600/Data%2BTypes%2Bin%2BC%2BRivisited%2B2.jpg)
 **Statement:** Expression followed by semi-colon.
 **Variable:**
 - Name of memory location where value can be changed during the execution of the program
