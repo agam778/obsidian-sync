@@ -22,8 +22,9 @@ int main()
     // printf("%d", ++d);
     // return 0;
 
-    int x = 10;
-    int y = 15;
-    printf("%d", (x, y));
-    return 0;
+    int a = 5;
+
+    switch(a) {
+        case 
+    }
 }
