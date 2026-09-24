@@ -1,5 +1,12 @@
 #include <stdio.h>
-
+enum Day
+{
+    MON,
+    TUE,
+    WED,
+    THUR,
+    FRI
+};
 int main()
 {
     // int n1, n2, sum;
@@ -15,14 +22,6 @@ int main()
     // printf("%d", ++d);
     // return 0;
 
-    enum Day
-    {
-        MON,
-        TUE,
-        WED,
-        THUR,
-        FRI
-    };
     enum Day today = WED;
     printf("%d", today);
 }
