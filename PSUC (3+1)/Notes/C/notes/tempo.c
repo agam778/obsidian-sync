@@ -1,50 +1,7 @@
 #include <stdio.h>
-enum Day
-{
-    MON,
-    TUE,
-    WED,
-    THUR,
-    FRI
-};
+
 int main()
 {
-    // int n1, n2, sum;
-    // printf("Enter first number: ");
-    // scanf("%d", &n1);
-    // printf("Enter second number: ");
-    // scanf("%d", &n2);
-    // sum = n1 + n2;
-    // printf("%d", sum);
-    // char bc=65;
-    // printf("%d", sizeof(bc));
-    // int d = 4;
-    // printf("%d", ++d);
-    // return 0;
-
-    // printf("%e\n", 12345678.9);
-    // printf("%e\n", +1234567.89);
-    // printf("%e\n", -1234567.89);
-    // printf("%E\n", 1234567.89);
-    // printf("%f\n", 1234567.89);
-    // printf("%g\n", 1234567.89);
-    // printf("%G\n", 1234567.89);
-    // int b=21;
-    // printf("%d%%", b);
-
-    // int a = 5;
-    // if (a == 4)
-    // {
-    //     printf("a is not 4");
-    // }
-    // else if (a <= 5)
-    // {
-    //     printf("a is less than 5");
-    // }
-    // else
-    // {
-    //     printf("a is 5");
-    // }
-
-    
+    int age = 5;
+    if (age < 10)
 }
