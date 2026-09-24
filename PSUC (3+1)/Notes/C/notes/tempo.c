@@ -2,6 +2,9 @@
 
 int main()
 {
-    int n1=2, n2=4;
-    printf("%g", n);
+    int n1, n2, sum;
+    printf("Enter first number: ");
+    scanf("%d", &n1);
+    printf("")
+    printf("%d", sum);
 }
