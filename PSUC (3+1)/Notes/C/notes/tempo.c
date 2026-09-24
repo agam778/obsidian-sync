@@ -17,7 +17,7 @@ int main()
 
     enum Day
     {
-        MON,
+        MON=2,
         TUE,
         WED,
         THUR,
