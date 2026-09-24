@@ -3,13 +3,16 @@
 
 int main(void)
 {
-    int a = 5;
-    if (a < 4)
-        printf("f");
-    else if (a == 3)
-        printf("fals");
-    else if (a == 2)
-        printf("falseee");
+    float a = 1, b = 1, c = -5;
+    float d = b * b - 4 * a * c;
+
+    if (d == 0)
+        printf("Root is: %.2f\n", -b / (2 * a));
+    else if (d > 0)
+        printf("Roots are: %.2f, %.2f\n",
+                (-b + sqrt(d)) / (2 * a),
+                (-b - sqrt(d)) / (2 * a));
     else
-        printf("sss");
+        printf("There are no real roots.\n");
+    return 0;
 }
