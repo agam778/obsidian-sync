@@ -13,5 +13,5 @@ int main()
         {
             printf("c is smallest");
         }
-    }
+    } 
 }
