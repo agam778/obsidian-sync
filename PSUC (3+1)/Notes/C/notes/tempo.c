@@ -2,6 +2,6 @@
 
 int main()
 {
-    float n=50.22000;
+    int n1=2, n2=4;
     printf("%g", n);
 }
