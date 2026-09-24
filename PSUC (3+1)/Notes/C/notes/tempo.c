@@ -11,5 +11,17 @@ int main()
     // printf("%d", sum);
     // char bc=65;
     // printf("%d", sizeof(bc));
-/
+    // int d = 4;
+    // printf("%d", ++d);
+    // return 0;
+
+    enum Day
+    {
+        MON,
+        TUE,
+        WED,
+        THUR,
+        FRI
+    };
+    
 }
