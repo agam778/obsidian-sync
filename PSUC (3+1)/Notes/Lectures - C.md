@@ -120,6 +120,7 @@ statement
 
 > [!Important] Precedence
 
+![373](https://aticleworld.com/wp-content/uploads/2018/08/123456-min.png)
 ### Operators
 - Increment works only on variables, not constants.
 
