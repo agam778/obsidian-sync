@@ -10,6 +10,6 @@ int main()
     // sum = n1 + n2;
     // printf("%d", sum);
     char bc=65;
-    printf("%c", bc);
+    printf("%d", sizeof(bc));
     return 0;
 }
