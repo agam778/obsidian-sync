@@ -1,17 +1,15 @@
 #include <stdio.h>
-
 int main()
 {
-    int n, triangularNumber = 0;
+    int n;
 
-    printf("TABLE OF TRIANGULAR NUMBERS\n");
-    printf("n       Sum from 1 to n\n");
+    int sum;
+    sum = 0; // initialize sum
 
-    for (n = 1;; n++)
-    {
-        triangularNumber += n;
-        printf("%2d       %d\n", n, triangularNumber);
-    }
+    for (n = 1; n < 100; n = n + 1)
 
+        sum = sum + n;
+
+    printf("%d", sum);
     return 0;
 }
