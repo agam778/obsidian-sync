@@ -22,6 +22,8 @@ int main()
     // printf("%d", ++d);
     // return 0;
 
-    enum Day today = WED;
-    printf("%d", today);
+    int x = 10;
+    int y = 15;
+    printf("%d", (x, y));
+    return 0;
 }
