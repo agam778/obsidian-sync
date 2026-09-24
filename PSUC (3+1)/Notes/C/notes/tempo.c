@@ -17,11 +17,12 @@ int main()
 
     enum Day
     {
-        MON=2,
+        MON,
         TUE,
         WED,
         THUR,
         FRI
     };
-    
+    enum Day today = WED;
+    printf("%d", today);
 }
