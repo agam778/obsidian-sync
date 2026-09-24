@@ -11,4 +11,5 @@ int main()
     // printf("%d", sum);
     char bc=65;
     printf("%c", bc);
+    return 0;
 }
