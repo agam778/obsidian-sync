@@ -1,19 +1,16 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
+    int a[100], n, sum = 0;
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+    printf("Enter elements: ");
+    for (int i = 0; i < n; i++)
+        scanf("%d", &a[i]);
 
-    int n, k, i, j;
-    printf("Enter number of tables and number of terms: ");
-    scanf("%d%d", &n, &k);
+    for (int i = 1; i < n; i += 2)
+        sum = sum + a[i];
 
-    for (i = 1; i <= n; i++)
-    {
-        printf("Table of %d\n", i);
-        for (j = 1; j <= k; j++)
-            printf("%d x %d = %d\n", i, j, i * j);
-        printf("\n");
-    }
-    
-    return 0;
+    printf("%d", sum);
 }
