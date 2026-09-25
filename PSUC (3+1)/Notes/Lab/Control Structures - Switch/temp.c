@@ -1,20 +1,19 @@
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-    float amount = 550;
-    if (amount > 0 && amount <= 500)
-        ;
-    else
+    int n, i, a = 0, b = 1, next;
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++)
     {
-        if (amount > 500 && amount <= 800)
-
-            amount *= 0.8;
-
-        else
-        {
-            if (amount >= 800)
-                amount *= 0.75;
-        }
+        printf("%d ", a);
+        next = a + b;
+        a = b;
+        b = next;
     }
-    printf("%f", amount);
+
+    printf("\n");
+    return 0;
 }
