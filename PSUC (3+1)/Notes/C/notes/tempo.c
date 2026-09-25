@@ -2,11 +2,14 @@
 
 int main()
 {
-    int n, d, place=1, result;
+    int n, d, result = 0;
     printf("Enter a number: ");
-    scanf("%d", n);
+    scanf("%d", &n);
     while (n != 0)
+    {
         d = n % 10;
-        result = result + ()
-
+        result = result * 10 + d;
+        n = n / 10;
+    }
+    printf("%d", result);
 }
