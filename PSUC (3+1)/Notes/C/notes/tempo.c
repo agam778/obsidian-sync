@@ -2,14 +2,14 @@
 
 int main()
 {
-    int n, d, result = 0;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    while (n != 0)
+    int n = 5, g = 1;
+    for (int i = 1; i <= n; i++)
     {
-        d = n % 10;
-        result = result * 10 + d;
-        n = n / 10;
+        for (int j = 1; j <= i; j++)
+        {
+            printf("%4d", g);
+            g++;
+        }
+        printf("\n");
     }
-    printf("%d", result);
 }
