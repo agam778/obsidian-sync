@@ -1,5 +1,5 @@
 ![](https://www.youtube.com/watch?v=pHNbm-4reIc)
-Start Chapter 4
+Continue from [3:37:46](https://youtu.be/pHNbm-4reIc?si=1EIZ8EpIURx7ZVho&t=13066)
 
 - [x] Chapter 1 ✅ 2026-08-16
 - [x] Chapter 2 ✅ 2026-08-23
