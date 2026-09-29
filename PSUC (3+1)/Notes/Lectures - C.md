@@ -237,4 +237,6 @@ a[3] = 10;
 
 Definition of Bitwise and Shift operator
 
-### String Array
+### Character Array - String
+- Example: "abc"
+- End character is null (`\0`) - placed automatically
