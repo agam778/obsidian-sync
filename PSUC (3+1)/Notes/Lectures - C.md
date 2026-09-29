@@ -245,8 +245,8 @@ a[3] = 10;
 **Using function:**
 `gets(name);`
 - `gets` takes a single line input, stops when enter is pressed.
-**Using scanf:**
+**Using `scanf`:**
 - `scanf("%s", name);`
 - `scanf("%s", &name[0]);`
 - In this, the terminator will be space, tab key or enter key (`\n`).
-- `scanf("%[^\n]", name);`
+- `scanf("%[^\n]", name);` - This will also include spaces, and terminate only on enter key
