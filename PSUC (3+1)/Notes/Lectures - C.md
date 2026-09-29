@@ -250,4 +250,4 @@ a[3] = 10;
 - `scanf("%s", &name[0]);`
 - In this, the terminator will be space, tab key or enter key (`\n`).
 - `scanf("%[^\n]", name);` - This will also include spaces, and terminate only on enter key
-- To input a paragraph 
+- `scanf("", name);` - To input a paragraph
