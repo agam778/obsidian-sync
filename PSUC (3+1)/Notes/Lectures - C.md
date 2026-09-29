@@ -245,3 +245,5 @@ a[3] = 10;
 **Using function:**
 `gets(name);`
 - `gets` takes a single line input, stops when enter is pressed.
+**Using scanf:**
+`scanf("%s", &name);`
