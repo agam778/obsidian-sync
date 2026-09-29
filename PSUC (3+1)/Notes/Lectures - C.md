@@ -242,3 +242,6 @@ a[3] = 10;
 `char name[20];`
 #### Initialization:
 `char name[20] = "Arvind";`
+**Using function:**
+`gets(name);`
+- `gets` takes a single line input, stops when enter is pressed.
