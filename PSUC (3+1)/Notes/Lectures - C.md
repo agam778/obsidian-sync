@@ -243,4 +243,5 @@ a[3] = 10;
 - O/P display
 ```
 char name[20];
+
 ```
