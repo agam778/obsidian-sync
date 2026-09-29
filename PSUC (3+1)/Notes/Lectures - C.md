@@ -240,5 +240,5 @@ a[3] = 10;
 - End character is null (`\0`) - placed automatically
 #### Declaration:
 `char name[20];`
-#### Initialization
+#### Initialization:
 `char name[20] = "Arvind";`
