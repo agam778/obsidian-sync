@@ -239,9 +239,6 @@ a[3] = 10;
 - Example: "abc"
 - End character is null (`\0`) - placed automatically
 #### Declaration:
-- I/P name
-- O/P display
-```C
-char name[20];
-
-```
+`char name[20];`
+#### Initialization
+`char name[20] = "Arvind";`
