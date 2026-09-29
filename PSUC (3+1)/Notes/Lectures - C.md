@@ -249,4 +249,4 @@ a[3] = 10;
 - `scanf("%s", name);`
 - `scanf("%s", &name[0]);`
 - In this, the terminator will be space, tab key or enter key (`\n`).
-- `scajf(`
+- `scanf("%[^\n]", name);`
