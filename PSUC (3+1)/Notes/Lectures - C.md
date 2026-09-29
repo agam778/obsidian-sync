@@ -241,7 +241,7 @@ a[3] = 10;
 #### Declaration:
 - I/P name
 - O/P display
-```
+```C
 char name[20];
 
 ```
