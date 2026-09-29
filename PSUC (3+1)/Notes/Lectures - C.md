@@ -248,4 +248,5 @@ a[3] = 10;
 **Using scanf:**
 - `scanf("%s", name);`
 - `scanf("%s", &name[0]);`
-- In this, the terminator will be space, 
+- In this, the terminator will be space, tab key or enter key (`\n`).
+
