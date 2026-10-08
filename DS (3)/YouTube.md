@@ -1,5 +1,5 @@
 ![](https://www.youtube.com/watch?v=pHNbm-4reIc)
-Continue from [4:06:25](https://youtu.be/pHNbm-4reIc?si=U9MxJmDKHdvbhRCP&t=14785)
+Continue from [4:36:00](https://youtu.be/pHNbm-4reIc?si=H6-NvMC3GtXWO23G&t=16560)
 
 - [x] Chapter 1 ✅ 2026-08-16
 - [x] Chapter 2 ✅ 2026-08-23
