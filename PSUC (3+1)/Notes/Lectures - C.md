@@ -251,4 +251,87 @@ a[3] = 10;
 - In this, the terminator will be space, tab key or enter key (`\n`).
 - `scanf("%[^\n]", name);` - This will also include spaces, and terminate only on enter key
 
-#### Search set in Strings:
+### Functions:
+- When we pass value of variable to the function, then it is called "Call by Value"
+- When we pass value of actual parameter to formal parameter, it is called "Call by Value"
+- In a function, zero or more return statement can exist.
+- When we pass address of a variable, it is called Call by Address
+
+**Limitation of Call by Value:**
+```C
+#include <stdio.h>
+void swap(int a, int b);
+
+int main()
+{
+    int a = 5;
+    int b = 7;
+    swap(a, b);
+    printf("%d, %d", a, b);
+    return 0;
+}
+
+void swap(int a, int b)
+{
+    int c = a;
+    a = b;
+    b = c;
+}
+```
+Here, the output will be "5, 7" as only the copy of a and b has been changed, not the actual variable of a and b. Thus, there's no swapping
+- Using call by value, a function cannot alter value of actual parameter
+- If any function wants to alter the value of actual parameter, then we can use "Call by Address"
+- If any function having address of actual parameter then it can change value of actual parameter using pointer
+
+```C
+#include <stdio.h>
+void swap(int *a, int *b);
+
+int main()
+{
+    int a = 5;
+    int b = 7;
+    swap(&a, &b);
+    printf("%d, %d", a, b);
+    return 0;
+}
+
+void swap(int *a, int *b)
+{
+    int c = *a;
+    *a = *b;
+    *b = c;
+}
+```
+
+- If we don't want to use call by address, we have to use global variable.
+- **Global Variable**: If any variable is defined or declared outside a function, it is called global variable and it can be accessed by any function without any restriction. If multiple functions want to share common variables, then we can use global variable
+- **Local Variable:** When variables are declared inside a function, it is called local variable. It can only be accessed by the function in which it is declared.
+
+Note: This is for `C++` only:
+> [!Important] If Global and Local Variable have same name, then local variable will have more preference. But if we want to use global variable, then we use "Scope Resolution Operator: `::a`"
+
+ ```cpp
+ int a=15;
+ int main()
+ {
+ int a=78;
+ printf("%d", ::a);
+ }
+ ```
+
+#### Recursion:
+- When a function calls itself, it is called Recursion.
+- After certain calls, it will be a terminating condition.
+- When a problem is defined into its own term, then recursion is used.
+```C
+f( , )
+{
+   f( , )
+}
+```
+
+> [!Important]
+> - Recursion and Call by Address function very important
+> - Fibbonacci Series by Recursion very important
+
