@@ -335,3 +335,32 @@ f( , )
 > - Recursion and Call by Address function very important
 > - Fibbonacci Series by Recursion very important
 
+#### Passing 1D array to a function:
+- It is compulsory to pass size of an array when we pass array to function
+
+### 2D Array
+- When you want to arrange data in rows and columns/tabular format, then we can use two dimensional array.
+- `int a[5][7];`
+#### Input in 2D array:
+- Row-wise input is given, using two for loops
+```C
+// Static Array
+for (int i=0; i<2; i++) {
+	for (int j=0; j<3; j++) {
+		scanf("%d", &a[i][j]);
+	}	
+}
+
+// Dynamic Array
+int r=2; c=3;
+int a[r][c];
+for (int i=0; i<r; i++) {
+	for (int j=0; j<c; j++) {
+		scanf("%d", &a[i][j]);
+	}	
+}
+```
+#### Processing of 2D array:
+Two types:
+- Row-wise processing
+- Column-wise processing
