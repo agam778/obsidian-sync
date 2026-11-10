@@ -1,9 +1,11 @@
+
 #### Compilation process:
 - Preprocessor $\longrightarrow$ Compiler $\longrightarrow$ Assembler $\longrightarrow$ Linker $\longrightarrow$ Machine Code
 - (PCAL) $\longrightarrow$ M/C
 
 `<stdio.h>` - Standard I/O - From Buffer
 `<conio.h>` - Console I/O - From Console
+
 
 #### Header file includes functions. Two parts:
 - **Definition**: The code
@@ -364,3 +366,62 @@ for (int i=0; i<r; i++) {
 Two types:
 - Row-wise processing
 - Column-wise processing
+### Storage Classes
+#### Scope and Lifetime of a variable
+**Scope**: Area in which variable is accessible
+**Lifetime**: 
+
+Few keywords which define scope and lifetime of a variable
+- `auto`
+- `register`
+- `extern
+- `static`
+
+**``auto`` storage class:**
+All the local variables are `auto` by default
+
+**`register` storage class:**
+```C
+for (register int i=0; i<10000; i++)
+```
+Memory space in CPU register if it is available, otherwise in primary memory
+It will boost execution speed
+Default value is garbage
+Scope and lifetime is always local
+
+**`extern` storage class:**
+- It tells key variable is defined externally somewhere else header file so do not create local variable of the same variable otherwise it hides scope of global variable (key)
+
+**VERY IMP - 99% CHANCES**
+**`static` storage class:**
+- static variable retains its value between function calls if it is local variable
+- **default value of static variable is 0**
+- lifetime: global till end of the execution
+- scope: local
+
+### String:
+- Characters enclosed into double quotes is called string
+- Input: Static and Runtime
+- Static: `char name[30] = "MUJ";`, `char name[]="MUJ";`
+- Null character: It indicates end of the string in a `char` array. ASCII value is `0`. It is non-printable character. 
+
+String literal is represented by a pointer to a character
+
+structures 10 marks most imp 3 lab qs section d
+2d array section c or d 10 marks like magic square etc
+1d array section b 6 marks
+strings 10 marks all functions all lab programs 
+functions mei call by address ka swapping wala program ya lab ke saare program mei se ek program aayega kabhi kabhi do question alag alag ban jaate hai section c mei section d mei 5 5 marks ka 
+recursion important
+call by value call by address difference imp
+meaning of recursion very imp
+pointer arithmetic veery imp
+what is type casting
+pyramid wala qs confirm hai
+switch case ka ek qs aur wapis aayega
+cinversion bibary decimal bitwise 
+von neumann
+operators pe theory qs
+100% storage classes
+
+LINKED LIST for DSA
