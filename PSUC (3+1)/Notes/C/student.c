@@ -16,6 +16,7 @@ int main() {
         scanf("%d", &s[i].rno);
         printf("Name: ");
         scanf("%[^\n]", s[i].name);
-        printf("Enter marks in 3 subjects:")
+        printf("Enter marks in 3 subjects: ");
+        scanf("%d")
     }
 }
