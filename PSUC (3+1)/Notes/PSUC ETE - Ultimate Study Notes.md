@@ -2460,15 +2460,6 @@ The table names **all 27 supplied files**. References to slide numbers use the o
 
 **Source limitations:** references such as “Lab 4 Q5–Q7,” “Lab 7 Q7,” and “all lab programs” occur in the notes, but those lab sheets/questions were not among the supplied files. The general patterns explicitly described are covered here; the unidentified questions cannot be reconstructed reliably. The tariff/PCM fragments lack complete rules, as noted in §4.2/§4.7. No official exam question choices or duration were supplied.
 
-### 12.2 Accuracy notes
-
-These notes use ordinary hosted **C11/C17-style code** with common classroom assumptions stated where needed. Legacy `void main`, `gets`, `<conio.h>`, nonstandard switch ranges, C++ scope resolution, fixed-size assumptions, and misleading overflow/output claims are corrected rather than copied. Source emphasis is preserved without repeating unsupported certainty about exam questions.
-
-For a primary reference behind the standard-C distinctions, see the [WG14 C11 committee draft N1570](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), particularly §§6.2.4 (storage duration), 6.5 (expressions), 6.5.6 (pointer arithmetic), 6.5.2.2 (function calls), and 7.21.6 (formatted I/O). It is a reference, not additional reading required for your 1½-day plan.
-
-### 12.3 Using this in Obsidian
-
-Copy this `.md` file into your Obsidian vault and open it. The heading links at the top, outline, callouts, checkboxes, code blocks, and maths work without community plugins. Use Reading view for tables and callouts. Keep a scratch note for programs you can reproduce from memory and the errors you need to fix.
 
 
 
