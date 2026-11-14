@@ -13,7 +13,7 @@ int main()
     float m1, m2, m3;
     printf("Enter number of students: ");
     scanf("%d", &n);
-    struct student s[n - 1];
+    struct student s[n - 1], t;
     for (int i = 0; i < n - 1; i++)
     {
         printf("Enter marks of Student %d\n", i + 1);
@@ -29,5 +29,9 @@ int main()
         m3 = 0;
     }
 
-    for (int i=0; i<)
+    for (int i=0; i<n-1; i++) {
+        for (int j=0; j<n-i-1; j++) {
+            if (s[j] < s[j+1])
+        }
+    }
 }
