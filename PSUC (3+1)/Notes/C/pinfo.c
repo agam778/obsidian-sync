@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-struct personal {
+struct personal
+{
     char name[20];
     int d, m, y;
     float salary;
 };
 
-int main() {
+int main()
+{
     struct personal p;
     printf("Enter name: ");
     scanf("%[^\n]", p.name);
@@ -15,5 +17,5 @@ int main() {
     printf("Enter Salary: ");
     scanf("%f", &p.salary);
 
-    printf("Personal Information\n");
+    printf("Personal Information\n\nName: %s\nDate of Joining: %d/%d/%d\nSalary: %.2f\n", p.name, p.d, p.m, p.y, p.salary);
 }
