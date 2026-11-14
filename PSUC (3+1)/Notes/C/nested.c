@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 struct Address {
     char city[20];
@@ -12,5 +13,6 @@ struct Student {
 };
 
 int main() {
-    
+    struct Student s1;
+    strcpy
 }
