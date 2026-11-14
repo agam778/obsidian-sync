@@ -29,9 +29,6 @@ int main()
         printf("Enter marks in 3 subjects: ");
         scanf("%f %f %f", &m1, &m2, &m3);
         s[i].total = m1 + m2 + m3;
-        m1 = 0;
-        m2 = 0;
-        m3 = 0;
     }
 
     for (int i = 0; i < n - 1; i++)
