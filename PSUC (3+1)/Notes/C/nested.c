@@ -21,4 +21,5 @@ int main()
     s1.rollNumber = "12";
     strcpy(s1.address.city, "Delhi");
     s1.address.pinCode = "110001";
+    printf("Name: %s\nRoll number: %d\nCity: %s\nPIN code: %d", s1.name, )
 }
