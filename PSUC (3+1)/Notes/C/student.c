@@ -13,11 +13,6 @@ int main()
     float m1, m2, m3;
     printf("Enter number of students: ");
     scanf("%d", &n);
-    if (n <= 0)
-    {
-        printf("Number of students must be positive.\n");
-        return 1;
-    }
     struct student s[n], t;
     for (int i = 0; i < n; i++)
     {
