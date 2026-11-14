@@ -6,5 +6,8 @@ struct student {
 };
 
 int main() {
+    int n;
+    printf("Enter number of students: ");
+    scanf("%d", &n);
     
 }
