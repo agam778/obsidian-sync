@@ -14,7 +14,7 @@ int main()
     printf("Enter number of students: ");
     scanf("%d", &n);
     struct student s[n - 1], t;
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("Enter marks of Student %d\n", i + 1);
         printf("Roll No: ");
