@@ -2755,7 +2755,3 @@ This is a synthesized study guide, not a verbatim transcription. Repeated explan
 | A local static is visible globally because it lives forever | Duration and scope are distinct |
 
 The specific portability checks for **unsequenced modifications, array-parameter adjustment, removal of `gets`, and standard hosted `main`** were cross-checked against the [WG14 C11 committee draft N1570](https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), especially §§5.1.2.2.1,6.5 and6.7.6.3 and the foreword. C11 is used as a stable teaching baseline here; newer language versions and compiler extensions may differ.
-
-### Obsidian use
-
-Copy this `.md` file into your vault and open it. The note is self-contained: formulas use Obsidian's math rendering, diagrams use built-in Mermaid, internal navigation uses heading links, and callouts/checklists work without an added plugin. The optional original-PDF wiki link resolves when that PDF remains in the same vault. Use the Outline pane to navigate modules or search for a lab number/title. Source PowerPoint/PDF files remain your reference originals; they are not required for the rewritten programs to be readable.
