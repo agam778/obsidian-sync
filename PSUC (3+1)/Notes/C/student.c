@@ -41,4 +41,7 @@ int main()
             }
         }
     }
+
+    printf("Roll No\tName\t\tTotal Marks");
+    printf("%d\t%-15s\t\t%.2f")
 }
