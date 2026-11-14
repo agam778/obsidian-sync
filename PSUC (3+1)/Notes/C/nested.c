@@ -9,7 +9,7 @@ struct Student
     {
         char city[20];
         int pinCode;
-    };
+    } address;
 };
 
 int main()
