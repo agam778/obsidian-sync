@@ -5,7 +5,7 @@
 int main()
 {
     char s[50] = "Hello NIgGleT";
-    for (int i = 0; i < strlen(s); i++)
+    for (int i = 0; s[i] != '\0'; i++)
     {
         s[i] = toupper(s[i]);
     }
