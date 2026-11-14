@@ -1,10 +1,3 @@
-
-> [!abstract] How to use this note
-> Study the concepts, trace the examples, then write the lab solutions from memory. **Lab numbers below mean the S.No. in `agamlabfilefullfinal.pdf`**, not the lab-session number. Page numbers are PDF page numbers. Solutions are rewritten for clarity and correct C behavior, rather than copied with errors from screenshots.
-
-> [!important] Blueprint takes priority
-> The supplied **80-mark ETE blueprint** is the organizing syllabus. Older class notes saying “first unit 16 marks” or predicting a question with “100% chance” are revision hints, not an official paper pattern. Harvard architecture and linked lists are retained as brief supplementary context because they appear in your material; they are not named in the blueprint's module table.
-
 ## Navigation
 
 - [[#Exam blueprint and study order]]
