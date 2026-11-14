@@ -1,21 +1,3 @@
----
-title: PSUC - Ultimate ETE Study Notes
-aliases:
-  - PSUC ETE Master Notes
-  - CSC1101 End Term Revision
-tags:
-  - MUJ
-  - PSUC
-  - C
-  - ETE
-  - exam-preparation
-course: Problem Solving Using Computers - CSC1101
-exam: July-November 2026 End Term
-marks: 80
-created: 2026-11-14
----
-
-# PSUC - Ultimate ETE Study Notes
 
 > [!abstract] How to use this note
 > Study the concepts, trace the examples, then write the lab solutions from memory. **Lab numbers below mean the S.No. in `agamlabfilefullfinal.pdf`**, not the lab-session number. Page numbers are PDF page numbers. Solutions are rewritten for clarity and correct C behavior, rather than copied with errors from screenshots.
