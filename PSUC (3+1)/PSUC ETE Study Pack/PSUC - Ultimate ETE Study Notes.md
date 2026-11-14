@@ -1,18 +1,3 @@
----
-aliases:
-  - PSUC Ultimate Notes
-  - CSC1101 ETE
-tags:
-  - PSUC
-  - C
-  - exam
-  - revision
-course: Problem Solving Using Computers - CSC1101
-exam: July-November 2026 ETE
-study-window: 1.5 days
----
-
-# PSUC - Ultimate ETE Study Notes
 
 > [!abstract] Start here
 > A syllabus-led guide for **80 marks**, based on your supplied blueprint, all 22 slide files, three existing notes, recursion PDF, and five handwritten pages. Learn the **CORE** material first, practise the **WRITE** programs without looking, and use **EXTRA** material only after that. The companion [[PSUC - Practice and Extra Reference]] preserves additional exercises and advanced topics from the sources.
