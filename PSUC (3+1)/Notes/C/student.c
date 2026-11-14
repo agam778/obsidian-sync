@@ -20,7 +20,7 @@ int main()
         printf("Roll No: ");
         scanf("%d", &s[i].rno);
         printf("Name: ");
-        scanf("%[^\n]", s[i].name);
+        scanf(" %[^\n]", s[i].name);
         printf("Enter marks in 3 subjects: ");
         scanf("%f %f %f", &m1, &m2, &m3);
         s[i].total = m1 + m2 + m3;
