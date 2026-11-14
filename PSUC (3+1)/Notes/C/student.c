@@ -43,8 +43,8 @@ int main()
     }
 
     printf("Roll No\tName\t\tTotal Marks");
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
-        printf("%d\t%-15s \t\t%.2f", s[i].rno, s[i].name, s[i].total);
+        printf("%d\t%s\t\t%.2f\n", s[i].rno, s[i].name, s[i].total);
     }
 }
