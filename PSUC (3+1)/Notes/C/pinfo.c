@@ -12,5 +12,8 @@ int main() {
     scanf("%[^\n]", p.name);
     printf("Enter date of joining (DD/MM/YYYY): ");
     scanf("%d/%d/%d", &p.d, &p.m, &p.y);
-    printf("Enter Salary: ")
+    printf("Enter Salary: ");
+    scanf("%f", &p.salary);
+
+    printf("Personal Information\n");
 }
