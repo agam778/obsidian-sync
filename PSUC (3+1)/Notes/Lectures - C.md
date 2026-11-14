@@ -424,4 +424,4 @@ von neumann
 operators pe theory qs
 100% storage classes
 
-LINKED LIST for DSA
+LINKED LIST for DSA (in dec not for exams)
