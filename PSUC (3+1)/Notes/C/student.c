@@ -13,6 +13,11 @@ int main()
     float m1, m2, m3;
     printf("Enter number of students: ");
     scanf("%d", &n);
+    if (n <= 0)
+    {
+        printf("Number of students must be positive.\n");
+        return 1;
+    }
     struct student s[n], t;
     for (int i = 0; i < n; i++)
     {
@@ -20,7 +25,7 @@ int main()
         printf("Roll No: ");
         scanf("%d", &s[i].rno);
         printf("Name: ");
-        scanf(" %[^\n]", s[i].name);
+        scanf(" %19[^\n]", s[i].name);
         printf("Enter marks in 3 subjects: ");
         scanf("%f %f %f", &m1, &m2, &m3);
         s[i].total = m1 + m2 + m3;
@@ -42,9 +47,10 @@ int main()
         }
     }
 
-    printf("Roll No\tName\t\tTotal Marks");
+    printf("Roll No\tName\t\tTotal Marks\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t%s\t\t%.2f\n", s[i].rno, s[i].name, s[i].total);
     }
+    return 0;
 }
