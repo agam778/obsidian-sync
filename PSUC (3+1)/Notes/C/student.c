@@ -9,5 +9,8 @@ int main() {
     int n;
     printf("Enter number of students: ");
     scanf("%d", &n);
-    
+    struct student s[n-1];
+    for (int i=0; i<n-1; i++) {
+        
+    }
 }
