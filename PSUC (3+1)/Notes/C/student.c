@@ -13,8 +13,8 @@ int main()
     float m1, m2, m3;
     printf("Enter number of students: ");
     scanf("%d", &n);
-    struct student s[n - 1], t;
-    for (int i = 0; i < n - 1; i++)
+    struct student s[n], t;
+    for (int i = 0; i < n; i++)
     {
         printf("Enter marks of Student %d\n", i + 1);
         printf("Roll No: ");
