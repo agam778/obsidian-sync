@@ -424,4 +424,85 @@ von neumann
 operators pe theory qs
 100% storage classes
 
+Structures and Unions
+
+Structure/Union: Collection of different types of data under one name
+
+Difference between structure and union
+
+Structure:
+
+struct Student {
+
+char name[30];
+
+int marks;
+
+};
+
+The whole struct {} thing is called blueprint of new data type student
+
+struct is keyword, student is the new data type
+
+the char and int here are members of new data type Student
+
+how to create variables:
+
+int main() {
+
+struct Student s3;
+
+}
+
+Input/Output:
+
+int main() {
+
+struct Student s2={“Arpit”, 50} // Static Initialization
+
+}
+
+To access member of a structure, we can:
+
+- Use dot operator:
+    
+- Use arrow operator: When we access member of a structure variable using pointer variable, then we can use arrow operator instead of dot operator
+    
+
+typedef: to create new name of existing datatype:
+
+typedef struct Student Student;
+
+Array of structures
+
+Union: Collection of different types of data members and all the data members shares same memory space
+
+so structure has individual members having individual space and union has shared space
+
+union Contact {
+
+char mailid[20];
+
+int number;
+
+};
+
+Member of union variable is the size of the largest variable
+
+Only one member is active at a time (or) members are mutually exclusively active
+
+Last updated member is considered as active member of that union variable
+
+strlen
+
+strcpy
+
+strcat
+
+strcmp
+
+strchr
+
+strstr
+
 LINKED LIST for DSA (in dec not for exams)
